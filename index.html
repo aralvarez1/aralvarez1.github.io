@@ -282,44 +282,6 @@
 <footer>
   © 2026 Arthur — Portfolio Data Analyst
 </footer>
-<script>
-  const RSS_URL = "https://rss.app/feeds/tIdH2gu4uf3zoJ5E.xml";
-  const MAX_ITEMS = 5;
-  const PROXY = `https://api.allorigins.win/get?url=${encodeURIComponent(RSS_URL)}`;
-
-  fetch(PROXY)
-    .then(r => r.json())
-    .then(data => {
-      const grid = document.getElementById("rss-grid");
-      const parser = new DOMParser();
-      const xml = parser.parseFromString(data.contents, "text/xml");
-      const items = Array.from(xml.querySelectorAll("item")).slice(0, MAX_ITEMS);
-
-      if (items.length === 0) {
-        grid.innerHTML = '<p class="rss-loading">Aucun article trouvé.</p>';
-        return;
-      }
-
-      grid.innerHTML = items.map(item => {
-        const title = item.querySelector("title")?.textContent || "Sans titre";
-        const link  = item.querySelector("link")?.textContent || "#";
-        const pub   = item.querySelector("pubDate")?.textContent;
-        const date  = pub
-          ? new Date(pub).toLocaleDateString("fr-FR", {
-              day: "numeric", month: "short", year: "numeric"
-            })
-          : "";
-        return `
-          <a class="rss-card" href="${link}" target="_blank" rel="noopener">
-            <div class="rss-date">${date}</div>
-            <div class="rss-title">${title}</div>
-          </a>`;
-      }).join("");
-    })
-    .catch(() => {
-      document.getElementById("rss-grid").innerHTML =
-        '<p class="rss-loading">Impossible de charger les articles.</p>';
-    });
-</script>
+<rssapp-wall id="tIdH2gu4uf3zoJ5E"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
 </body>
 </html>
