@@ -87,14 +87,7 @@
   }
   .card a.repo-link:hover { text-decoration: underline; }
 
-  footer {
-    text-align: center;
-    padding: 30px 20px;
-    color: var(--muted);
-    font-size: 0.85rem;
-    border-top: 1px solid #334155;
-  }
-    /* RSS */
+  /* RSS */
   .rss-section {
     background: var(--card);
     border-top: 1px solid #334155;
@@ -108,35 +101,21 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
   }
-  .rss-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 14px;
+  .rss-section rssapp-wall {
+    display: block;
     max-width: 1000px;
+    max-height: 320px;
+    overflow: hidden;
     margin: 0 auto;
   }
-  .rss-card {
-    background: var(--bg);
-    border: 1px solid #334155;
-    border-radius: 10px;
-    padding: 14px;
-    text-decoration: none;
-    display: block;
-    transition: 0.2s;
-  }
-  .rss-card:hover { border-color: var(--accent); transform: translateY(-2px); }
-  .rss-card .rss-date {
-    font-size: 0.72rem;
+
+  footer {
+    text-align: center;
+    padding: 30px 20px;
     color: var(--muted);
-    margin-bottom: 6px;
+    font-size: 0.85rem;
+    border-top: 1px solid #334155;
   }
-  .rss-card .rss-title {
-    color: var(--text);
-    font-size: 0.88rem;
-    font-weight: 600;
-    line-height: 1.4;
-  }
-  .rss-loading { text-align: center; color: var(--muted); font-size: 0.88rem; }
 </style>
 </head>
 <body>
@@ -167,7 +146,7 @@
           <h3>Détection de faux billets</h3>
           <p>Modèle de classification (régression logistique, K-means) avec interface desktop pour détecter les faux billets.</p>
         </div>
-        <a class="repo-link" href="https://github.com/YOUR-USERNAME/fake-bill-detection" target="_blank">Voir le repo →</a>
+        <a class="repo-link" href="https://github.com/aralvarez1/fake-bill-detection" target="_blank">Voir le repo →</a>
       </div>
 
       <div class="card">
@@ -176,7 +155,7 @@
           <h3>Analyse des ventes — Librairie Lapage</h3>
           <p>Indicateurs de vente et analyse du comportement client pour une librairie en ligne, restitution CODIR.</p>
         </div>
-        <a class="repo-link" href="https://github.com/YOUR-USERNAME/bookstore-sales-analysis" target="_blank">Voir le repo →</a>
+        <a class="repo-link" href="https://github.com/aralvarez1/bookstore-sales-analysis" target="_blank">Voir le repo →</a>
       </div>
 
       <div class="card">
@@ -185,7 +164,7 @@
           <h3>Tableau de bord dynamique</h3>
           <p>Dashboard interactif avec KPIs, filtres dynamiques et navigation multi-pages.</p>
         </div>
-        <a class="repo-link" href="https://github.com/YOUR-USERNAME/dynamic-dashboard-powerbi" target="_blank">Voir le repo →</a>
+        <a class="repo-link" href="https://github.com/aralvarez1/dynamic-dashboard-powerbi" target="_blank">Voir le repo →</a>
       </div>
     </div>
   </section>
@@ -199,7 +178,7 @@
           <h3>Automatisation de flux</h3>
           <p>Workflow automatisé d'extraction, transformation et chargement de données pour un reporting récurrent.</p>
         </div>
-        <a class="repo-link" href="https://github.com/YOUR-USERNAME/workflow-automation-knime" target="_blank">Voir le repo →</a>
+        <a class="repo-link" href="https://github.com/aralvarez1/workflow-automation-knime" target="_blank">Voir le repo →</a>
       </div>
 
       <div class="card">
@@ -208,7 +187,7 @@
           <h3>Gestion des données — BottleNeck</h3>
           <p>Rapprochement de données multi-sources, correction d'erreurs et analyse CA/stocks pour un marchand de vin.</p>
         </div>
-        <a class="repo-link" href="https://github.com/YOUR-USERNAME/retail-data-management" target="_blank">Voir le repo →</a>
+        <a class="repo-link" href="https://github.com/aralvarez1/retail-data-management" target="_blank">Voir le repo →</a>
       </div>
 
       <div class="card">
@@ -217,16 +196,16 @@
           <h3>Étude santé publique / alimentation</h3>
           <p>Analyse de la disponibilité alimentaire mondiale pour identifier les zones de vulnérabilité.</p>
         </div>
-        <a class="repo-link" href="https://github.com/YOUR-USERNAME/public-health-food-analysis" target="_blank">Voir le repo →</a>
+        <a class="repo-link" href="https://github.com/aralvarez1/public-health-food-analysis" target="_blank">Voir le repo →</a>
       </div>
 
       <div class="card">
         <div>
           <span class="tag">SQL</span>
           <h3>Base de données immobilière</h3>
-          <p>Conception d'une base relationnelle et requêtes SQL pour la gestion de biens immobiliers.</p>
+          </p>Conception d'une base relationnelle et requêtes SQL pour la gestion de biens immobiliers.</p>
         </div>
-        <a class="repo-link" href="https://github.com/YOUR-USERNAME/real-estate-database-sql" target="_blank">Voir le repo →</a>
+        <a class="repo-link" href="https://github.com/aralvarez1/real-estate-database-sql" target="_blank">Voir le repo →</a>
       </div>
 
       <div class="card">
@@ -235,7 +214,7 @@
           <h3>Étude eau potable</h3>
           <p>Dashboard mondial sur l'accès à l'eau potable, cartographie des zones de pénurie.</p>
         </div>
-        <a class="repo-link" href="https://github.com/YOUR-USERNAME/drinking-water-study-tableau" target="_blank">Voir le repo →</a>
+        <a class="repo-link" href="https://github.com/aralvarez1/drinking-water-study-tableau" target="_blank">Voir le repo →</a>
       </div>
     </div>
   </section>
@@ -249,7 +228,7 @@
           <h3>Indicateurs d'égalité F/H</h3>
           <p>Calcul des indicateurs d'égalité professionnelle dans le respect du RGPD.</p>
         </div>
-        <a class="repo-link" href="https://github.com/YOUR-USERNAME/gender-equality-indicators" target="_blank">Voir le repo →</a>
+        <a class="repo-link" href="https://github.com/aralvarez1/gender-equality-indicators" target="_blank">Voir le repo →</a>
       </div>
 
       <div class="card">
@@ -258,7 +237,7 @@
           <h3>Étude de marché</h3>
           <p>Clustering et scoring de pays pour orienter une décision d'expansion internationale.</p>
         </div>
-        <a class="repo-link" href="https://github.com/YOUR-USERNAME/market-research-analysis" target="_blank">Voir le repo →</a>
+        <a class="repo-link" href="https://github.com/aralvarez1/market-research-analysis" target="_blank">Voir le repo →</a>
       </div>
 
       <div class="card">
@@ -267,21 +246,22 @@
           <h3>Analyse de ventes e-commerce</h3>
           <p>Segmentation clients RFM et analyse du catalogue pour un site e-commerce.</p>
         </div>
-        <a class="repo-link" href="https://github.com/YOUR-USERNAME/ecommerce-sales-analysis" target="_blank">Voir le repo →</a>
+        <a class="repo-link" href="https://github.com/aralvarez1/ecommerce-sales-analysis" target="_blank">Voir le repo →</a>
       </div>
     </div>
   </section>
 
 </main>
+
 <section class="rss-section">
   <h2>Articles récents</h2>
-  <div class="rss-grid" id="rss-grid">
-    <p class="rss-loading">Chargement des articles...</p>
-  </div>
+  <rssapp-wall id="tIdH2gu4uf3zoJ5E" theme="dark" limit="5"></rssapp-wall>
+  <script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
 </section>
+
 <footer>
   © 2026 Arthur — Portfolio Data Analyst
 </footer>
-<rssapp-wall id="tIdH2gu4uf3zoJ5E"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+
 </body>
 </html>
