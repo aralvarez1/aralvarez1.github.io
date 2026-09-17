@@ -94,6 +94,49 @@
     font-size: 0.85rem;
     border-top: 1px solid #334155;
   }
+    /* RSS */
+  .rss-section {
+    background: var(--card);
+    border-top: 1px solid #334155;
+    padding: 30px 20px;
+  }
+  .rss-section h2 {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--muted);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .rss-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 14px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .rss-card {
+    background: var(--bg);
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 14px;
+    text-decoration: none;
+    display: block;
+    transition: 0.2s;
+  }
+  .rss-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .rss-card .rss-date {
+    font-size: 0.72rem;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .rss-card .rss-title {
+    color: var(--text);
+    font-size: 0.88rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .rss-loading { text-align: center; color: var(--muted); font-size: 0.88rem; }
 </style>
 </head>
 <body>
@@ -230,10 +273,43 @@
   </section>
 
 </main>
-
+<section class="rss-section">
+  <h2>Articles récents</h2>
+  <div class="rss-grid" id="rss-grid">
+    <p class="rss-loading">Chargement des articles...</p>
+  </div>
+</section>
 <footer>
   © 2026 Arthur — Portfolio Data Analyst
 </footer>
+<script>
+  const RSS_URL = "https://rss.app/feeds/tIdH2gu4uf3zoJ5E.xml";
+  const MAX_ITEMS = 5;
+  const API = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS_URL)}&count=${MAX_ITEMS}`;
 
+  fetch(API)
+    .then(r => r.json())
+    .then(data => {
+      const grid = document.getElementById("rss-grid");
+      if (!data.items || data.items.length === 0) {
+        grid.innerHTML = '<p class="rss-loading">Aucun article trouvé.</p>';
+        return;
+      }
+      grid.innerHTML = data.items.map(item => {
+        const date = new Date(item.pubDate).toLocaleDateString("fr-FR", {
+          day: "numeric", month: "short", year: "numeric"
+        });
+        return `
+          <a class="rss-card" href="${item.link}" target="_blank" rel="noopener">
+            <div class="rss-date">${date}</div>
+            <div class="rss-title">${item.title}</div>
+          </a>`;
+      }).join("");
+    })
+    .catch(() => {
+      document.getElementById("rss-grid").innerHTML =
+        '<p class="rss-loading">Impossible de charger les articles.</p>';
+    });
+</script>
 </body>
 </html>
