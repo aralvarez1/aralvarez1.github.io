@@ -101,14 +101,17 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
   }
-  .rss-section rssapp-wall {
-    display: block;
+  .rss-wrapper {
     max-width: 1000px;
-    height: 500px;
+    max-height: 480px;
     overflow-y: auto;
     margin: 0 auto;
+    border-radius: 10px;
   }
-
+  .rss-section rssapp-wall {
+    display: block;
+    width: 100%;
+  }
 
   footer {
     text-align: center;
@@ -204,7 +207,7 @@
         <div>
           <span class="tag">SQL</span>
           <h3>Base de données immobilière</h3>
-          </p>Conception d'une base relationnelle et requêtes SQL pour la gestion de biens immobiliers.</p>
+          <p>Conception d'une base relationnelle et requêtes SQL pour la gestion de biens immobiliers.</p>
         </div>
         <a class="repo-link" href="https://github.com/aralvarez1/real-estate-database-sql" target="_blank">Voir le repo →</a>
       </div>
@@ -255,8 +258,11 @@
 </main>
 
 <section class="rss-section">
-  <rssapp-wall id="tIdH2gu4uf3zoJ5E" theme="dark" limit="5"></rssapp-wall>
-  <script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+  <h2>Articles récents</h2>
+  <div class="rss-wrapper">
+    <rssapp-wall id="tIdH2gu4uf3zoJ5E"></rssapp-wall>
+    <script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+  </div>
 </section>
 
 <footer>
