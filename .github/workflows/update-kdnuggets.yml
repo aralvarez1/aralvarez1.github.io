@@ -40,6 +40,11 @@ jobs:
           FEED_URL = "https://www.kdnuggets.com/feed"
           API_URL = "https://www.kdnuggets.com/wp-json/wp/v2/posts"
 
+          # Tags à ne jamais afficher sur le portfolio.
+          EXCLUDED_TAGS = {
+              "originals"
+          }
+
 
           def get_slug(article_url):
               """Extrait le slug WordPress depuis l'URL de l'article."""
@@ -52,7 +57,7 @@ jobs:
 
 
           def get_image(entry):
-              """Récupère l'image fournie par le flux RSS."""
+              """Récupère l'image déclarée dans le flux RSS."""
               media_content = entry.get("media_content", [])
 
               for media in media_content:
@@ -69,14 +74,15 @@ jobs:
 
 
           def clean_html(value):
-              """Supprime les balises HTML éventuellement présentes."""
-              return re.sub(r"<[^>]+>", "", value or "").strip()
+              """Supprime les balises HTML éventuelles d'un libellé."""
+              text = re.sub(r"<[^>]+>", "", value or "")
+              return " ".join(text.split()).strip()
 
 
           def get_wordpress_tags(article_url):
               """
-              Tente de récupérer les tags/catégories natifs depuis l'API
-              WordPress de KDNuggets.
+              Récupère les catégories et tags natifs de l'article via l'API
+              WordPress de KDNuggets, en excluant les libellés non pertinents.
               """
               slug = get_slug(article_url)
 
@@ -91,7 +97,10 @@ jobs:
                           "_embed": "true"
                       },
                       headers={
-                          "User-Agent": "Mozilla/5.0"
+                          "User-Agent": (
+                              "Mozilla/5.0 "
+                              "(compatible; ArthurPortfolio/1.0)"
+                          )
                       },
                       timeout=20
                   )
@@ -111,16 +120,20 @@ jobs:
 
                   for terms_group in terms_groups:
                       for term in terms_group:
-                          term_name = clean_html(term.get("name", ""))
                           taxonomy = term.get("taxonomy", "")
 
-                          # WordPress retourne normalement "category" ou "post_tag".
+                          # L'API WordPress utilise généralement ces deux types.
                           if taxonomy not in ["category", "post_tag"]:
                               continue
 
+                          term_name = clean_html(term.get("name", ""))
                           normalized_name = term_name.lower()
 
-                          if term_name and normalized_name not in seen:
+                          if (
+                              term_name
+                              and normalized_name not in seen
+                              and normalized_name not in EXCLUDED_TAGS
+                          ):
                               tags.append(term_name)
                               seen.add(normalized_name)
 
@@ -139,7 +152,7 @@ jobs:
 
           if feed.bozo and not feed.entries:
               raise RuntimeError(
-                  f"Impossible de récupérer le flux KDNuggets : "
+                  "Impossible de récupérer le flux KDNuggets : "
                   f"{feed.bozo_exception}"
               )
 
@@ -162,13 +175,11 @@ jobs:
               else:
                   date = ""
 
-              tags = get_wordpress_tags(article_url)
-
               articles.append({
                   "title": entry.get("title", "Article sans titre"),
                   "link": article_url,
                   "date": date,
-                  "tags": tags,
+                  "tags": get_wordpress_tags(article_url),
                   "image": get_image(entry)
               })
 
