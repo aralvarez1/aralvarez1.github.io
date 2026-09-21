@@ -9,7 +9,6 @@
   >
   <title>Arthur — Portfolio Data Analyst</title>
 
-  <!-- Applique le thème mémorisé avant l'affichage de la page -->
   <script>
     const savedTheme = localStorage.getItem("theme");
 
@@ -30,7 +29,6 @@
       --rss-bg: #f1f5f9;
     }
 
-    /* Thème sombre selon le réglage du système */
     @media (prefers-color-scheme: dark) {
       :root {
         --bg: #0f172a;
@@ -44,7 +42,6 @@
       }
     }
 
-    /* Thème clair choisi manuellement */
     html[data-theme="light"] {
       --bg: #f8fafc;
       --card: #ffffff;
@@ -56,7 +53,6 @@
       --rss-bg: #f1f5f9;
     }
 
-    /* Thème sombre choisi manuellement */
     html[data-theme="dark"] {
       --bg: #0f172a;
       --card: #1e293b;
@@ -262,7 +258,6 @@
       margin-bottom: 0;
     }
 
-    /* Cartes projets et articles entièrement cliquables */
     a.project-card,
     a.article-card {
       color: inherit;
@@ -275,7 +270,6 @@
       color: var(--accent);
     }
 
-    /* Section de veille */
     .rss-section {
       background: var(--rss-bg);
       border-top: 1px solid var(--border);
@@ -393,15 +387,15 @@
         <h1>Arthur</h1>
 
         <p class="subtitle">
-          Data Analyst — Reporting, visualisation & automatisation
+          Data Analyst — reporting, visualisation & automatisation
         </p>
 
         <p class="bio">
-          Data Analyst chez Schmidt Groupe et en formation chez OpenClassrooms,
-          je transforme les données en analyses claires, fiables et directement
-          exploitables. J’interviens sur le reporting, l’automatisation de flux
-          et la création de tableaux de bord avec Python, SQL, Power BI,
-          Tableau et SAP BusinessObjects BI.
+          Data Analyst chez Schmidt Groupe et en formation chez OpenClassrooms.
+          L’objectif : transformer des données brutes en analyses fiables,
+          reportings clairs et tableaux de bord utiles à la décision.
+          Compétences principales : Python, SQL, Power BI, Tableau et
+          SAP BusinessObjects BI.
         </p>
 
         <div class="links">
@@ -445,8 +439,8 @@
             <span class="tag">Python · PyQt6</span>
             <h3>Détection de faux billets</h3>
             <p>
-              Modèle de classification avec régression logistique et K-means,
-              complété par une interface desktop de détection des faux billets.
+              Modèle de classification pour distinguer les vrais billets des
+              faux, avec une interface desktop développée en PyQt6.
             </p>
           </div>
         </a>
@@ -456,14 +450,14 @@
           href="https://github.com/aralvarez1/bookstore-sales-analysis"
           target="_blank"
           rel="noopener"
-          aria-label="Voir le projet Analyse des ventes Librairie Lapage sur GitHub"
+          aria-label="Voir le projet Analyse des ventes d'une librairie sur GitHub"
         >
           <div>
             <span class="tag">Python</span>
-            <h3>Analyse des ventes — Librairie Lapage</h3>
+            <h3>Analyse des ventes d’une librairie</h3>
             <p>
-              Analyse des indicateurs de vente et du comportement client
-              pour une librairie en ligne, avec restitution CODIR.
+              Analyse des ventes, des clients et des produits afin d’identifier
+              les principaux indicateurs de performance commerciale.
             </p>
           </div>
         </a>
@@ -473,14 +467,14 @@
           href="https://github.com/aralvarez1/dynamic-dashboard-powerbi"
           target="_blank"
           rel="noopener"
-          aria-label="Voir le projet Tableau de bord dynamique sur GitHub"
+          aria-label="Voir le projet Tableau de bord Power BI sur GitHub"
         >
           <div>
             <span class="tag">Power BI</span>
-            <h3>Tableau de bord dynamique</h3>
+            <h3>Tableau de bord Power BI</h3>
             <p>
-              Dashboard interactif avec KPIs, filtres dynamiques
-              et navigation entre plusieurs pages.
+              Tableau de bord interactif pour suivre les indicateurs clés,
+              filtrer les données et naviguer entre plusieurs niveaux d’analyse.
             </p>
           </div>
         </a>
@@ -488,7 +482,7 @@
     </section>
 
     <section class="tier2">
-      <h2 class="section-title">Analyses & automatisation</h2>
+      <h2 class="section-title">Projets à découvrir</h2>
 
       <div class="grid">
         <a
@@ -496,14 +490,14 @@
           href="https://github.com/aralvarez1/workflow-automation-knime"
           target="_blank"
           rel="noopener"
-          aria-label="Voir le projet Automatisation de flux sur GitHub"
+          aria-label="Voir le projet Automatisation d'un flux de données sur GitHub"
         >
           <div>
             <span class="tag">KNIME</span>
-            <h3>Automatisation de flux</h3>
+            <h3>Automatisation d’un flux de données</h3>
             <p>
-              Workflow automatisé d’extraction, transformation et chargement
-              de données pour un reporting récurrent.
+              Workflow KNIME pour automatiser la préparation des données et
+              produire un reporting récurrent de façon plus fiable.
             </p>
           </div>
         </a>
@@ -513,14 +507,14 @@
           href="https://github.com/aralvarez1/retail-data-management"
           target="_blank"
           rel="noopener"
-          aria-label="Voir le projet Gestion des données BottleNeck sur GitHub"
+          aria-label="Voir le projet Qualité des données BottleNeck sur GitHub"
         >
           <div>
             <span class="tag">Python</span>
-            <h3>Gestion des données — BottleNeck</h3>
+            <h3>Qualité des données — BottleNeck</h3>
             <p>
-              Rapprochement de données multi-sources, correction d’erreurs
-              et analyse du chiffre d’affaires et des stocks.
+              Nettoyage et rapprochement de données issues de plusieurs sources
+              pour analyser le chiffre d’affaires, les prix et les stocks.
             </p>
           </div>
         </a>
@@ -530,14 +524,14 @@
           href="https://github.com/aralvarez1/public-health-food-analysis"
           target="_blank"
           rel="noopener"
-          aria-label="Voir le projet Étude santé publique et alimentation sur GitHub"
+          aria-label="Voir le projet Disponibilité alimentaire mondiale sur GitHub"
         >
           <div>
             <span class="tag">Python · FAO</span>
-            <h3>Étude santé publique / alimentation</h3>
+            <h3>Disponibilité alimentaire mondiale</h3>
             <p>
-              Analyse de la disponibilité alimentaire mondiale pour identifier
-              les zones de vulnérabilité.
+              Analyse de données de la FAO pour comparer la disponibilité
+              alimentaire entre les pays et identifier les zones vulnérables.
             </p>
           </div>
         </a>
@@ -553,8 +547,8 @@
             <span class="tag">SQL</span>
             <h3>Base de données immobilière</h3>
             <p>
-              Conception d’une base relationnelle et création de requêtes SQL
-              pour la gestion de biens immobiliers.
+              Conception d’une base de données relationnelle et rédaction de
+              requêtes SQL pour répondre à des besoins de gestion immobilière.
             </p>
           </div>
         </a>
@@ -564,14 +558,14 @@
           href="https://github.com/aralvarez1/drinking-water-study-tableau"
           target="_blank"
           rel="noopener"
-          aria-label="Voir le projet Étude eau potable sur GitHub"
+          aria-label="Voir le projet Accès à l'eau potable sur GitHub"
         >
           <div>
             <span class="tag">Tableau</span>
-            <h3>Étude eau potable</h3>
+            <h3>Accès à l’eau potable</h3>
             <p>
-              Dashboard mondial sur l’accès à l’eau potable et cartographie
-              des zones de pénurie.
+              Tableau de bord Tableau consacré à l’accès à l’eau potable dans
+              le monde et à la visualisation des écarts entre pays.
             </p>
           </div>
         </a>
@@ -579,7 +573,7 @@
     </section>
 
     <section class="tier3">
-      <h2 class="section-title">Data visualisation & aide à la décision</h2>
+      <h2 class="section-title">Projets complémentaires</h2>
 
       <div class="grid">
         <a
@@ -591,10 +585,10 @@
         >
           <div>
             <span class="tag">Python · RGPD</span>
-            <h3>Indicateurs d’égalité F/H</h3>
+            <h3>Indicateurs d’égalité professionnelle</h3>
             <p>
-              Calcul et analyse d’indicateurs d’égalité professionnelle
-              dans le respect du RGPD.
+              Calcul d’indicateurs femmes-hommes à partir de données RH, avec
+              prise en compte des règles de confidentialité liées au RGPD.
             </p>
           </div>
         </a>
@@ -604,14 +598,14 @@
           href="https://github.com/aralvarez1/market-research-analysis"
           target="_blank"
           rel="noopener"
-          aria-label="Voir le projet Étude de marché sur GitHub"
+          aria-label="Voir le projet Analyse de marchés internationaux sur GitHub"
         >
           <div>
             <span class="tag">Python</span>
-            <h3>Étude de marché</h3>
+            <h3>Analyse de marchés internationaux</h3>
             <p>
-              Clustering et scoring de pays pour guider une décision
-              d’expansion internationale.
+              Analyse et segmentation de pays pour identifier les marchés les
+              plus pertinents dans le cadre d’un développement à l’international.
             </p>
           </div>
         </a>
@@ -627,8 +621,8 @@
             <span class="tag">Python</span>
             <h3>Analyse de ventes e-commerce</h3>
             <p>
-              Segmentation clients RFM et analyse du catalogue
-              pour un site e-commerce.
+              Segmentation des clients et analyse du catalogue pour mieux
+              comprendre les comportements d’achat et la performance des produits.
             </p>
           </div>
         </a>
@@ -741,9 +735,10 @@
           const tags = document.createElement("div");
           tags.className = "tags";
 
-          const articleTags = Array.isArray(article.tags) && article.tags.length > 0
-            ? article.tags
-            : ["Data & IA"];
+          const articleTags =
+            Array.isArray(article.tags) && article.tags.length > 0
+              ? article.tags
+              : ["Data & IA"];
 
           articleTags.forEach((tagName) => {
             const tag = document.createElement("span");
