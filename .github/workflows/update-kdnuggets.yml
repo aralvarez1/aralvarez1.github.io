@@ -1,0 +1,75 @@
+name: Mettre à jour le flux KDNuggets
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer feedparser
+        run: pip install feedparser
+
+      - name: Récupérer les articles KDNuggets
+        run: |
+          mkdir -p data
+
+          python - <<'PY'
+          import feedparser
+          import json
+          from datetime import datetime
+
+          feed_url = "https://www.kdnuggets.com/feed"
+          feed = feedparser.parse(feed_url)
+
+          articles = []
+
+          for entry in feed.entries[:9]:
+              published = entry.get("published_parsed")
+
+              if published:
+                  date = datetime(
+                      published.tm_year,
+                      published.tm_mon,
+                      published.tm_mday
+                  ).strftime("%d/%m/%Y")
+              else:
+                  date = ""
+
+              articles.append({
+                  "title": entry.get("title", "Article sans titre"),
+                  "link": entry.get("link", "https://www.kdnuggets.com/"),
+                  "date": date
+              })
+
+          with open("data/kdnuggets.json", "w", encoding="utf-8") as file:
+              json.dump(articles, file, ensure_ascii=False, indent=2)
+          PY
+
+      - name: Enregistrer les nouveaux articles
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/kdnuggets.json
+
+          if git diff --cached --quiet; then
+            echo "Aucune mise à jour à enregistrer."
+          else
+            git commit -m "Mise à jour du flux KDNuggets"
+            git push
+          fi
