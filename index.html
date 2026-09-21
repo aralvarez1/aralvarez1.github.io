@@ -3,16 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Portfolio d'Arthur, Data Analyst spécialisé en reporting, visualisation et automatisation."
+  >
   <title>Arthur — Portfolio Data Analyst</title>
+
+  <!-- Applique le thème mémorisé avant l'affichage de la page -->
+  <script>
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "light" || savedTheme === "dark") {
+      document.documentElement.dataset.theme = savedTheme;
+    }
+  </script>
 
   <style>
     :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --accent: #0284c7;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #cbd5e1;
+      --tag-bg: #e0f2fe;
+      --rss-bg: #f1f5f9;
+    }
+
+    /* Thème sombre selon le réglage du système */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card: #1e293b;
+        --accent: #38bdf8;
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --border: #334155;
+        --tag-bg: #0f172a;
+        --rss-bg: #1e293b;
+      }
+    }
+
+    /* Thème clair choisi manuellement */
+    html[data-theme="light"] {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --accent: #0284c7;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #cbd5e1;
+      --tag-bg: #e0f2fe;
+      --rss-bg: #f1f5f9;
+    }
+
+    /* Thème sombre choisi manuellement */
+    html[data-theme="dark"] {
       --bg: #0f172a;
       --card: #1e293b;
       --accent: #38bdf8;
       --text: #e2e8f0;
       --muted: #94a3b8;
       --border: #334155;
+      --tag-bg: #0f172a;
+      --rss-bg: #1e293b;
     }
 
     * {
@@ -21,22 +74,70 @@
       box-sizing: border-box;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: "Segoe UI", system-ui, sans-serif;
       background: var(--bg);
       color: var(--text);
       line-height: 1.6;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    .theme-toggle {
+      position: fixed;
+      top: 18px;
+      right: 18px;
+      z-index: 10;
+      background: var(--card);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 9px 14px;
+      cursor: pointer;
+      font: inherit;
+      font-size: 0.85rem;
+      transition: 0.2s;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--accent);
+      color: var(--accent);
     }
 
     header {
-      padding: 60px 20px 40px;
-      text-align: center;
-      max-width: 800px;
+      max-width: 1000px;
       margin: 0 auto;
+      padding: 70px 20px 45px;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 36px;
+    }
+
+    .profile-photo {
+      width: 170px;
+      height: 170px;
+      flex: 0 0 170px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50%;
+      border: 3px solid var(--accent);
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.18);
+    }
+
+    .hero-content {
+      max-width: 650px;
+      text-align: left;
     }
 
     header h1 {
-      font-size: 2.2rem;
+      font-size: 2.4rem;
       margin-bottom: 8px;
     }
 
@@ -48,15 +149,19 @@
 
     header p.bio {
       color: var(--muted);
-      max-width: 600px;
-      margin: 0 auto 20px;
+      max-width: 620px;
+      margin: 0 0 20px;
     }
 
     .links {
       display: flex;
       justify-content: center;
-      gap: 16px;
+      gap: 12px;
       flex-wrap: wrap;
+    }
+
+    .hero .links {
+      justify-content: flex-start;
     }
 
     .links a {
@@ -89,8 +194,8 @@
     }
 
     .tier1 .section-title {
-      color: #facc15;
-      border-color: #facc15;
+      color: #ca8a04;
+      border-color: #ca8a04;
     }
 
     .tier2 .section-title {
@@ -128,26 +233,17 @@
     .card h3 {
       font-size: 1.05rem;
       margin-bottom: 8px;
+      transition: color 0.2s;
     }
 
     .card p {
       color: var(--muted);
       font-size: 0.88rem;
-      margin-bottom: 14px;
-    }
-
-    .article-image {
-      width: calc(100% + 40px);
-      height: 160px;
-      object-fit: cover;
-      margin: -20px -20px 16px;
-      border-radius: 12px 12px 0 0;
-      background: var(--bg);
     }
 
     .tag {
       display: inline-block;
-      background: var(--bg);
+      background: var(--tag-bg);
       color: var(--accent);
       font-size: 0.72rem;
       padding: 3px 10px;
@@ -155,19 +251,22 @@
       margin-bottom: 10px;
     }
 
-    .card a.repo-link {
-      color: var(--accent);
+    /* Cartes projets entièrement cliquables */
+    a.project-card,
+    a.article-card {
+      color: inherit;
       text-decoration: none;
-      font-size: 0.85rem;
-      font-weight: 600;
+      cursor: pointer;
     }
 
-    .card a.repo-link:hover {
-      text-decoration: underline;
+    a.project-card:hover h3,
+    a.article-card:hover h3 {
+      color: var(--accent);
     }
 
+    /* Veille KDNuggets */
     .rss-section {
-      background: var(--card);
+      background: var(--rss-bg);
       border-top: 1px solid var(--border);
       padding: 50px 20px;
     }
@@ -184,20 +283,29 @@
       margin-bottom: 8px;
     }
 
-    .rss-section .rss-description {
+    .rss-description {
       text-align: center;
       color: var(--muted);
       margin-bottom: 28px;
       font-size: 0.9rem;
     }
 
-    .rss-section .rss-description a {
+    .rss-description a {
       color: var(--accent);
       text-decoration: none;
     }
 
-    .rss-section .rss-description a:hover {
+    .rss-description a:hover {
       text-decoration: underline;
+    }
+
+    .article-image {
+      width: calc(100% + 40px);
+      height: 160px;
+      object-fit: cover;
+      margin: -20px -20px 16px;
+      border-radius: 12px 12px 0 0;
+      background: var(--bg);
     }
 
     .rss-status {
@@ -214,143 +322,205 @@
       font-size: 0.85rem;
       border-top: 1px solid var(--border);
     }
+
+    @media (max-width: 650px) {
+      .theme-toggle {
+        top: 12px;
+        right: 12px;
+      }
+
+      header {
+        padding-top: 85px;
+      }
+
+      .hero {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+      }
+
+      .profile-photo {
+        width: 135px;
+        height: 135px;
+        flex-basis: 135px;
+      }
+
+      .hero-content {
+        text-align: center;
+      }
+
+      .hero .links {
+        justify-content: center;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+    }
   </style>
 </head>
 
 <body>
+  <button
+    id="theme-toggle"
+    class="theme-toggle"
+    type="button"
+    aria-label="Changer de thème"
+  >
+    Mode sombre
+  </button>
 
   <header>
-    <h1>Arthur</h1>
+    <div class="hero">
+      <img
+        class="profile-photo"
+        src="assets/arthur.jpg"
+        alt="Portrait d'Arthur, Data Analyst"
+      >
 
-    <p class="subtitle">
-      Data Analyst — Reporting, Visualisation, Automatisation
-    </p>
+      <div class="hero-content">
+        <h1>Arthur</h1>
 
-    <p class="bio">
-      Data Analyst chez Schmidt Groupe. En formation Data Analyst chez OpenClassrooms.
-      Python, SQL, Java, SAP BusinessObjects BI. Ce portfolio regroupe mes projets
-      d'analyse de données réalisés en formation et à titre personnel.
-    </p>
+        <p class="subtitle">
+          Data Analyst — Reporting, visualisation & automatisation
+        </p>
 
-    <div class="links">
-      <a href="https://github.com/aralvarez1" target="_blank" rel="noopener">
-        GitHub
-      </a>
+        <p class="bio">
+          Data Analyst chez Schmidt Groupe et en formation chez OpenClassrooms,
+          je transforme les données en analyses claires, fiables et directement
+          exploitables. J’interviens sur le reporting, l’automatisation de flux
+          et la création de tableaux de bord avec Python, SQL, Power BI,
+          Tableau et SAP BusinessObjects BI.
+        </p>
 
-      <!-- Remplace YOUR-LINKEDIN par ton identifiant LinkedIn -->
-      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">
-        LinkedIn
-      </a>
+        <div class="links">
+          <a
+            href="https://github.com/aralvarez1"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
 
-      <a href="mailto:arthur.alvarez@groupe.schmidt">
-        Email
-      </a>
+          <a
+            href="https://www.linkedin.com/in/YOUR-LINKEDIN"
+            target="_blank"
+            rel="noopener"
+          >
+            LinkedIn
+          </a>
+
+          <a href="mailto:arthur.alvarez@groupe.schmidt">
+            Me contacter
+          </a>
+        </div>
+      </div>
     </div>
   </header>
 
   <main>
-
     <section class="tier1">
       <h2 class="section-title">Projets phares</h2>
 
       <div class="grid">
-        <article class="card">
+        <a
+          class="card project-card"
+          href="https://github.com/aralvarez1/fake-bill-detection"
+          target="_blank"
+          rel="noopener"
+          aria-label="Voir le projet Détection de faux billets sur GitHub"
+        >
           <div>
             <span class="tag">Python · PyQt6</span>
             <h3>Détection de faux billets</h3>
             <p>
-              Modèle de classification (régression logistique, K-means) avec
-              interface desktop pour détecter les faux billets.
+              Modèle de classification avec régression logistique et K-means,
+              complété par une interface desktop de détection des faux billets.
             </p>
           </div>
+        </a>
 
-          <a class="repo-link"
-             href="https://github.com/aralvarez1/fake-bill-detection"
-             target="_blank"
-             rel="noopener">
-            Voir le repo →
-          </a>
-        </article>
-
-        <article class="card">
+        <a
+          class="card project-card"
+          href="https://github.com/aralvarez1/bookstore-sales-analysis"
+          target="_blank"
+          rel="noopener"
+          aria-label="Voir le projet Analyse des ventes Librairie Lapage sur GitHub"
+        >
           <div>
             <span class="tag">Python</span>
             <h3>Analyse des ventes — Librairie Lapage</h3>
             <p>
-              Indicateurs de vente et analyse du comportement client pour une
-              librairie en ligne, restitution CODIR.
+              Analyse des indicateurs de vente et du comportement client
+              pour une librairie en ligne, avec restitution CODIR.
             </p>
           </div>
+        </a>
 
-          <a class="repo-link"
-             href="https://github.com/aralvarez1/bookstore-sales-analysis"
-             target="_blank"
-             rel="noopener">
-            Voir le repo →
-          </a>
-        </article>
-
-        <article class="card">
+        <a
+          class="card project-card"
+          href="https://github.com/aralvarez1/dynamic-dashboard-powerbi"
+          target="_blank"
+          rel="noopener"
+          aria-label="Voir le projet Tableau de bord dynamique sur GitHub"
+        >
           <div>
             <span class="tag">Power BI</span>
             <h3>Tableau de bord dynamique</h3>
             <p>
-              Dashboard interactif avec KPIs, filtres dynamiques et navigation
-              multi-pages.
+              Dashboard interactif avec KPIs, filtres dynamiques
+              et navigation entre plusieurs pages.
             </p>
           </div>
-
-          <a class="repo-link"
-             href="https://github.com/aralvarez1/dynamic-dashboard-powerbi"
-             target="_blank"
-             rel="noopener">
-            Voir le repo →
-          </a>
-        </article>
+        </a>
       </div>
     </section>
 
     <section class="tier2">
-      <h2 class="section-title">Autres projets</h2>
+      <h2 class="section-title">Analyses & automatisation</h2>
 
       <div class="grid">
-        <article class="card">
+        <a
+          class="card project-card"
+          href="https://github.com/aralvarez1/workflow-automation-knime"
+          target="_blank"
+          rel="noopener"
+          aria-label="Voir le projet Automatisation de flux sur GitHub"
+        >
           <div>
             <span class="tag">KNIME</span>
             <h3>Automatisation de flux</h3>
             <p>
-              Workflow automatisé d'extraction, transformation et chargement de
-              données pour un reporting récurrent.
+              Workflow automatisé d’extraction, transformation et chargement
+              de données pour un reporting récurrent.
             </p>
           </div>
+        </a>
 
-          <a class="repo-link"
-             href="https://github.com/aralvarez1/workflow-automation-knime"
-             target="_blank"
-             rel="noopener">
-            Voir le repo →
-          </a>
-        </article>
-
-        <article class="card">
+        <a
+          class="card project-card"
+          href="https://github.com/aralvarez1/retail-data-management"
+          target="_blank"
+          rel="noopener"
+          aria-label="Voir le projet Gestion des données BottleNeck sur GitHub"
+        >
           <div>
             <span class="tag">Python</span>
             <h3>Gestion des données — BottleNeck</h3>
             <p>
-              Rapprochement de données multi-sources, correction d'erreurs et
-              analyse CA/stocks pour un marchand de vin.
+              Rapprochement de données multi-sources, correction d’erreurs
+              et analyse du chiffre d’affaires et des stocks.
             </p>
           </div>
+        </a>
 
-          <a class="repo-link"
-             href="https://github.com/aralvarez1/retail-data-management"
-             target="_blank"
-             rel="noopener">
-            Voir le repo →
-          </a>
-        </article>
-
-        <article class="card">
+        <a
+          class="card project-card"
+          href="https://github.com/aralvarez1/public-health-food-analysis"
+          target="_blank"
+          rel="noopener"
+          aria-label="Voir le projet Étude santé publique et alimentation sur GitHub"
+        >
           <div>
             <span class="tag">Python · FAO</span>
             <h3>Étude santé publique / alimentation</h3>
@@ -359,113 +529,100 @@
               les zones de vulnérabilité.
             </p>
           </div>
+        </a>
 
-          <a class="repo-link"
-             href="https://github.com/aralvarez1/public-health-food-analysis"
-             target="_blank"
-             rel="noopener">
-            Voir le repo →
-          </a>
-        </article>
-
-        <article class="card">
+        <a
+          class="card project-card"
+          href="https://github.com/aralvarez1/real-estate-database-sql"
+          target="_blank"
+          rel="noopener"
+          aria-label="Voir le projet Base de données immobilière sur GitHub"
+        >
           <div>
             <span class="tag">SQL</span>
             <h3>Base de données immobilière</h3>
             <p>
-              Conception d'une base relationnelle et requêtes SQL pour la gestion
-              de biens immobiliers.
+              Conception d’une base relationnelle et création de requêtes SQL
+              pour la gestion de biens immobiliers.
             </p>
           </div>
+        </a>
 
-          <a class="repo-link"
-             href="https://github.com/aralvarez1/real-estate-database-sql"
-             target="_blank"
-             rel="noopener">
-            Voir le repo →
-          </a>
-        </article>
-
-        <article class="card">
+        <a
+          class="card project-card"
+          href="https://github.com/aralvarez1/drinking-water-study-tableau"
+          target="_blank"
+          rel="noopener"
+          aria-label="Voir le projet Étude eau potable sur GitHub"
+        >
           <div>
             <span class="tag">Tableau</span>
             <h3>Étude eau potable</h3>
             <p>
-              Dashboard mondial sur l'accès à l'eau potable, cartographie des
-              zones de pénurie.
+              Dashboard mondial sur l’accès à l’eau potable et cartographie
+              des zones de pénurie.
             </p>
           </div>
-
-          <a class="repo-link"
-             href="https://github.com/aralvarez1/drinking-water-study-tableau"
-             target="_blank"
-             rel="noopener">
-            Voir le repo →
-          </a>
-        </article>
+        </a>
       </div>
     </section>
 
     <section class="tier3">
-      <h2 class="section-title">Projets complémentaires</h2>
+      <h2 class="section-title">Data visualisation & aide à la décision</h2>
 
       <div class="grid">
-        <article class="card">
+        <a
+          class="card project-card"
+          href="https://github.com/aralvarez1/gender-equality-indicators"
+          target="_blank"
+          rel="noopener"
+          aria-label="Voir le projet Indicateurs d'égalité professionnelle sur GitHub"
+        >
           <div>
             <span class="tag">Python · RGPD</span>
-            <h3>Indicateurs d'égalité F/H</h3>
+            <h3>Indicateurs d’égalité F/H</h3>
             <p>
-              Calcul des indicateurs d'égalité professionnelle dans le respect
-              du RGPD.
+              Calcul et analyse d’indicateurs d’égalité professionnelle
+              dans le respect du RGPD.
             </p>
           </div>
+        </a>
 
-          <a class="repo-link"
-             href="https://github.com/aralvarez1/gender-equality-indicators"
-             target="_blank"
-             rel="noopener">
-            Voir le repo →
-          </a>
-        </article>
-
-        <article class="card">
+        <a
+          class="card project-card"
+          href="https://github.com/aralvarez1/market-research-analysis"
+          target="_blank"
+          rel="noopener"
+          aria-label="Voir le projet Étude de marché sur GitHub"
+        >
           <div>
             <span class="tag">Python</span>
             <h3>Étude de marché</h3>
             <p>
-              Clustering et scoring de pays pour orienter une décision
-              d'expansion internationale.
+              Clustering et scoring de pays pour guider une décision
+              d’expansion internationale.
             </p>
           </div>
+        </a>
 
-          <a class="repo-link"
-             href="https://github.com/aralvarez1/market-research-analysis"
-             target="_blank"
-             rel="noopener">
-            Voir le repo →
-          </a>
-        </article>
-
-        <article class="card">
+        <a
+          class="card project-card"
+          href="https://github.com/aralvarez1/ecommerce-sales-analysis"
+          target="_blank"
+          rel="noopener"
+          aria-label="Voir le projet Analyse de ventes e-commerce sur GitHub"
+        >
           <div>
             <span class="tag">Python</span>
             <h3>Analyse de ventes e-commerce</h3>
             <p>
-              Segmentation clients RFM et analyse du catalogue pour un site
-              e-commerce.
+              Segmentation clients RFM et analyse du catalogue
+              pour un site e-commerce.
             </p>
           </div>
-
-          <a class="repo-link"
-             href="https://github.com/aralvarez1/ecommerce-sales-analysis"
-             target="_blank"
-             rel="noopener">
-            Voir le repo →
-          </a>
-        </article>
+        </a>
       </div>
     </section>
-
   </main>
 
   <section class="rss-section">
@@ -473,8 +630,12 @@
       <h2>Veille Data & IA</h2>
 
       <p class="rss-description">
-        Derniers articles issus de
-        <a href="https://www.kdnuggets.com/" target="_blank" rel="noopener">
+        Derniers articles de
+        <a
+          href="https://www.kdnuggets.com/"
+          target="_blank"
+          rel="noopener"
+        >
           KDNuggets
         </a>.
       </p>
@@ -490,6 +651,38 @@
   </footer>
 
   <script>
+    const themeToggle = document.getElementById("theme-toggle");
+
+    function systemPrefersDark() {
+      return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    }
+
+    function getCurrentTheme() {
+      return document.documentElement.dataset.theme ||
+        (systemPrefersDark() ? "dark" : "light");
+    }
+
+    function updateThemeButton() {
+      const isDark = getCurrentTheme() === "dark";
+
+      themeToggle.textContent = isDark ? "Mode clair" : "Mode sombre";
+      themeToggle.setAttribute(
+        "aria-label",
+        isDark ? "Activer le mode clair" : "Activer le mode sombre"
+      );
+    }
+
+    updateThemeButton();
+
+    themeToggle.addEventListener("click", () => {
+      const newTheme = getCurrentTheme() === "dark" ? "light" : "dark";
+
+      document.documentElement.dataset.theme = newTheme;
+      localStorage.setItem("theme", newTheme);
+
+      updateThemeButton();
+    });
+
     async function loadKDNuggetsFeed() {
       const container = document.getElementById("rss-feed");
 
@@ -509,30 +702,20 @@
         container.innerHTML = "";
 
         articles.forEach((article) => {
-          const card = document.createElement("article");
-          card.className = "card";
+          const card = document.createElement("a");
 
-          const content = document.createElement("div");
-
-          const tag = document.createElement("span");
-          tag.className = "tag";
-          tag.textContent = "KDNuggets";
-
-          const title = document.createElement("h3");
-          title.textContent = article.title || "Article sans titre";
-
-          const date = document.createElement("p");
-          date.textContent = article.date || "";
-
-          const link = document.createElement("a");
-          link.className = "repo-link";
-          link.href = article.link || "https://www.kdnuggets.com/";
-          link.target = "_blank";
-          link.rel = "noopener";
-          link.textContent = "Lire l’article →";
+          card.className = "card article-card";
+          card.href = article.link || "https://www.kdnuggets.com/";
+          card.target = "_blank";
+          card.rel = "noopener";
+          card.setAttribute(
+            "aria-label",
+            `Lire l’article : ${article.title || "Article KDNuggets"}`
+          );
 
           if (article.image) {
             const image = document.createElement("img");
+
             image.className = "article-image";
             image.src = article.image;
             image.alt = article.title || "Illustration de l’article";
@@ -542,13 +725,23 @@
             card.appendChild(image);
           }
 
+          const content = document.createElement("div");
+
+          const tag = document.createElement("span");
+          tag.className = "tag";
+          tag.textContent = article.category || "Data & IA";
+
+          const title = document.createElement("h3");
+          title.textContent = article.title || "Article sans titre";
+
+          const date = document.createElement("p");
+          date.textContent = article.date || "";
+
           content.appendChild(tag);
           content.appendChild(title);
           content.appendChild(date);
 
           card.appendChild(content);
-          card.appendChild(link);
-
           container.appendChild(card);
         });
       } catch (error) {
@@ -564,6 +757,5 @@
 
     loadKDNuggetsFeed();
   </script>
-
 </body>
 </html>
