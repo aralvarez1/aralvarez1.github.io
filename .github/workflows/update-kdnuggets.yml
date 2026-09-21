@@ -21,93 +21,136 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Installer feedparser
-        run: pip install feedparser
+      - name: Installer les dépendances
+        run: pip install feedparser requests
 
-      - name: Récupérer les articles, tags et images
+      - name: Récupérer les articles, images et tags
         run: |
           mkdir -p data
 
           python - <<'PY'
           import feedparser
-          import html
           import json
           import re
+          import requests
           from datetime import datetime
+          from urllib.parse import urlparse
 
 
-          def extract_image_from_html(content):
-              """Extrait la première URL d'image présente dans du HTML."""
-              if not content:
+          FEED_URL = "https://www.kdnuggets.com/feed"
+          API_URL = "https://www.kdnuggets.com/wp-json/wp/v2/posts"
+
+
+          def get_slug(article_url):
+              """Extrait le slug WordPress depuis l'URL de l'article."""
+              path = urlparse(article_url).path.strip("/")
+
+              if not path:
                   return ""
 
-              content = html.unescape(content)
-
-              match = re.search(
-                  r'''<img[^>]+src\s*=\s*["']([^"']+)["']''',
-                  content,
-                  flags=re.IGNORECASE
-              )
-
-              return match.group(1) if match else ""
+              return path.split("/")[-1]
 
 
           def get_image(entry):
-              """Récupère l'image associée à un article RSS."""
-
+              """Récupère l'image fournie par le flux RSS."""
               media_content = entry.get("media_content", [])
+
               for media in media_content:
                   if media.get("url"):
                       return media["url"]
 
               media_thumbnail = entry.get("media_thumbnail", [])
+
               for media in media_thumbnail:
                   if media.get("url"):
                       return media["url"]
 
-              image = entry.get("image", {})
-              if isinstance(image, dict) and image.get("href"):
-                  return image["href"]
+              return ""
 
-              content_list = entry.get("content", [])
-              for content in content_list:
-                  image_url = extract_image_from_html(
-                      content.get("value", "")
+
+          def clean_html(value):
+              """Supprime les balises HTML éventuellement présentes."""
+              return re.sub(r"<[^>]+>", "", value or "").strip()
+
+
+          def get_wordpress_tags(article_url):
+              """
+              Tente de récupérer les tags/catégories natifs depuis l'API
+              WordPress de KDNuggets.
+              """
+              slug = get_slug(article_url)
+
+              if not slug:
+                  return []
+
+              try:
+                  response = requests.get(
+                      API_URL,
+                      params={
+                          "slug": slug,
+                          "_embed": "true"
+                      },
+                      headers={
+                          "User-Agent": "Mozilla/5.0"
+                      },
+                      timeout=20
                   )
 
-                  if image_url:
-                      return image_url
+                  response.raise_for_status()
+                  posts = response.json()
 
-              return extract_image_from_html(entry.get("summary", ""))
+                  if not posts:
+                      print(f"Aucun article API trouvé pour : {slug}")
+                      return []
+
+                  embedded = posts[0].get("_embedded", {})
+                  terms_groups = embedded.get("wp:term", [])
+
+                  tags = []
+                  seen = set()
+
+                  for terms_group in terms_groups:
+                      for term in terms_group:
+                          term_name = clean_html(term.get("name", ""))
+                          taxonomy = term.get("taxonomy", "")
+
+                          # WordPress retourne normalement "category" ou "post_tag".
+                          if taxonomy not in ["category", "post_tag"]:
+                              continue
+
+                          normalized_name = term_name.lower()
+
+                          if term_name and normalized_name not in seen:
+                              tags.append(term_name)
+                              seen.add(normalized_name)
+
+                  return tags[:4]
+
+              except requests.RequestException as error:
+                  print(f"API WordPress indisponible pour {slug} : {error}")
+                  return []
+
+              except (ValueError, KeyError, TypeError) as error:
+                  print(f"Réponse API invalide pour {slug} : {error}")
+                  return []
 
 
-          def get_tags(entry):
-              """Récupère tous les tags attribués à un article KDNuggets."""
-              tags = []
-              seen = set()
-
-              for tag in entry.get("tags", []):
-                  name = tag.get("term", "").strip()
-                  normalized_name = name.lower()
-
-                  if name and normalized_name not in seen:
-                      tags.append(name)
-                      seen.add(normalized_name)
-
-              return tags
-
-
-          feed_url = "https://www.kdnuggets.com/feed"
-          feed = feedparser.parse(feed_url)
+          feed = feedparser.parse(FEED_URL)
 
           if feed.bozo and not feed.entries:
               raise RuntimeError(
-                  f"Impossible de récupérer le flux : {feed.bozo_exception}"
+                  f"Impossible de récupérer le flux KDNuggets : "
+                  f"{feed.bozo_exception}"
               )
 
           articles = []
 
           for entry in feed.entries[:9]:
+              article_url = entry.get(
+                  "link",
+                  "https://www.kdnuggets.com/"
+              )
+
               published = entry.get("published_parsed")
 
               if published:
@@ -119,14 +162,13 @@ jobs:
               else:
                   date = ""
 
+              tags = get_wordpress_tags(article_url)
+
               articles.append({
                   "title": entry.get("title", "Article sans titre"),
-                  "link": entry.get(
-                      "link",
-                      "https://www.kdnuggets.com/"
-                  ),
+                  "link": article_url,
                   "date": date,
-                  "tags": get_tags(entry),
+                  "tags": tags,
                   "image": get_image(entry)
               })
 
