@@ -1,5 +1,23 @@
 [
   {
+    "title": "What Everyone Is Getting Wrong About TypeSafe AI’s Jev",
+    "link": "https://www.kdnuggets.com/what-everyone-is-getting-wrong-about-typesafe-ais-jev",
+    "date": "21/09/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_everyone_getting_wrong_typesafe_ais_jev_2.png"
+  },
+  {
+    "title": "How to Turn a Python Script Into an AI Agent",
+    "link": "https://www.kdnuggets.com/how-to-turn-a-python-script-into-an-ai-agent",
+    "date": "21/09/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_turn_python_script_ai_agent_4.png"
+  },
+  {
     "title": "3 Polars Tricks for High-Performance Data Manipulation",
     "link": "https://www.kdnuggets.com/3-polars-tricks-for-high-performance-data-manipulation",
     "date": "21/09/2026",
@@ -62,24 +80,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/bala-effective-evals-for-agents.png"
-  },
-  {
-    "title": "Orchestration and Execution: How JONI Approaches the Agent Layer",
-    "link": "https://www.kdnuggets.com/2026/09/finpr/orchestration-and-execution-how-joni-approaches-the-agent-layer",
-    "date": "15/09/2026",
-    "tags": [
-      "Products and Services",
-      "Partners"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/image1-18.png"
-  },
-  {
-    "title": "How I’m Using Google Opal for Even More AI Automations",
-    "link": "https://www.kdnuggets.com/how-im-using-google-opal-for-even-more-ai-automations",
-    "date": "15/09/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-how-im-using-google-opal-for-even-more-ai-automations-feature.png"
   }
 ]
