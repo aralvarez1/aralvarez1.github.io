@@ -24,17 +24,81 @@ jobs:
       - name: Installer feedparser
         run: pip install feedparser
 
-      - name: Récupérer les articles KDNuggets
+      - name: Récupérer les articles et leurs images
         run: |
           mkdir -p data
 
           python - <<'PY'
           import feedparser
+          import html
           import json
+          import re
           from datetime import datetime
+
+
+          def extract_image_from_html(content):
+              """Extrait la première URL d'image présente dans du HTML."""
+              if not content:
+                  return ""
+
+              content = html.unescape(content)
+
+              match = re.search(
+                  r'''<img[^>]+src\s*=\s*["']([^"']+)["']''',
+                  content,
+                  flags=re.IGNORECASE
+              )
+
+              return match.group(1) if match else ""
+
+
+          def get_image(entry):
+              """Récupère l'image associée à un article RSS."""
+
+              # Priorité 1 : media:content
+              media_content = entry.get("media_content", [])
+              if media_content:
+                  for media in media_content:
+                      if media.get("url"):
+                          return media["url"]
+
+              # Priorité 2 : media:thumbnail
+              media_thumbnail = entry.get("media_thumbnail", [])
+              if media_thumbnail:
+                  for media in media_thumbnail:
+                      if media.get("url"):
+                          return media["url"]
+
+              # Priorité 3 : image déclarée dans le flux
+              image = entry.get("image", {})
+              if isinstance(image, dict) and image.get("href"):
+                  return image["href"]
+
+              # Priorité 4 : image présente dans le contenu complet RSS
+              content_list = entry.get("content", [])
+              if content_list:
+                  for content in content_list:
+                      image_url = extract_image_from_html(
+                          content.get("value", "")
+                      )
+                      if image_url:
+                          return image_url
+
+              # Priorité 5 : image présente dans le résumé RSS
+              image_url = extract_image_from_html(entry.get("summary", ""))
+              if image_url:
+                  return image_url
+
+              return ""
+
 
           feed_url = "https://www.kdnuggets.com/feed"
           feed = feedparser.parse(feed_url)
+
+          if feed.bozo and not feed.entries:
+              raise RuntimeError(
+                  f"Impossible de récupérer le flux KDNuggets : {feed.bozo_exception}"
+              )
 
           articles = []
 
@@ -52,12 +116,27 @@ jobs:
 
               articles.append({
                   "title": entry.get("title", "Article sans titre"),
-                  "link": entry.get("link", "https://www.kdnuggets.com/"),
-                  "date": date
+                  "link": entry.get(
+                      "link",
+                      "https://www.kdnuggets.com/"
+                  ),
+                  "date": date,
+                  "image": get_image(entry)
               })
 
-          with open("data/kdnuggets.json", "w", encoding="utf-8") as file:
-              json.dump(articles, file, ensure_ascii=False, indent=2)
+          with open(
+              "data/kdnuggets.json",
+              "w",
+              encoding="utf-8"
+          ) as file:
+              json.dump(
+                  articles,
+                  file,
+                  ensure_ascii=False,
+                  indent=2
+              )
+
+          print(f"{len(articles)} article(s) enregistré(s).")
           PY
 
       - name: Enregistrer les nouveaux articles
