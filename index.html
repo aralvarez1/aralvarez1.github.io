@@ -216,13 +216,13 @@
 
     .card {
       background: var(--card);
+      border: 1px solid var(--border);
       border-radius: 12px;
       padding: 20px;
-      border: 1px solid var(--border);
-      transition: 0.2s;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      transition: 0.2s;
     }
 
     .card:hover {
@@ -251,7 +251,18 @@
       margin-bottom: 10px;
     }
 
-    /* Cartes projets entièrement cliquables */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    .tags .tag {
+      margin-bottom: 0;
+    }
+
+    /* Cartes projets et articles entièrement cliquables */
     a.project-card,
     a.article-card {
       color: inherit;
@@ -264,7 +275,7 @@
       color: var(--accent);
     }
 
-    /* Veille KDNuggets */
+    /* Section de veille */
     .rss-section {
       background: var(--rss-bg);
       border-top: 1px solid var(--border);
@@ -727,9 +738,19 @@
 
           const content = document.createElement("div");
 
-          const tag = document.createElement("span");
-          tag.className = "tag";
-          tag.textContent = article.category || "Data & IA";
+          const tags = document.createElement("div");
+          tags.className = "tags";
+
+          const articleTags = Array.isArray(article.tags) && article.tags.length > 0
+            ? article.tags
+            : ["Data & IA"];
+
+          articleTags.forEach((tagName) => {
+            const tag = document.createElement("span");
+            tag.className = "tag";
+            tag.textContent = tagName;
+            tags.appendChild(tag);
+          });
 
           const title = document.createElement("h3");
           title.textContent = article.title || "Article sans titre";
@@ -737,7 +758,7 @@
           const date = document.createElement("p");
           date.textContent = article.date || "";
 
-          content.appendChild(tag);
+          content.appendChild(tags);
           content.appendChild(title);
           content.appendChild(date);
 
