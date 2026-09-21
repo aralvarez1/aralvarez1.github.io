@@ -24,7 +24,7 @@ jobs:
       - name: Installer feedparser
         run: pip install feedparser
 
-      - name: Récupérer les articles, catégories et images
+      - name: Récupérer les articles, tags et images
         run: |
           mkdir -p data
 
@@ -74,22 +74,27 @@ jobs:
                   image_url = extract_image_from_html(
                       content.get("value", "")
                   )
+
                   if image_url:
                       return image_url
 
               return extract_image_from_html(entry.get("summary", ""))
 
 
-          def get_category(entry):
-              """Récupère la première catégorie attribuée par KDNuggets."""
-              tags = entry.get("tags", [])
+          def get_tags(entry):
+              """Récupère tous les tags attribués à un article KDNuggets."""
+              tags = []
+              seen = set()
 
-              for tag in tags:
-                  category = tag.get("term", "").strip()
-                  if category:
-                      return category
+              for tag in entry.get("tags", []):
+                  name = tag.get("term", "").strip()
+                  normalized_name = name.lower()
 
-              return "Data & IA"
+                  if name and normalized_name not in seen:
+                      tags.append(name)
+                      seen.add(normalized_name)
+
+              return tags
 
 
           feed_url = "https://www.kdnuggets.com/feed"
@@ -121,7 +126,7 @@ jobs:
                       "https://www.kdnuggets.com/"
                   ),
                   "date": date,
-                  "category": get_category(entry),
+                  "tags": get_tags(entry),
                   "image": get_image(entry)
               })
 
