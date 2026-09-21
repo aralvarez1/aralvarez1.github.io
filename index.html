@@ -136,6 +136,15 @@
       margin-bottom: 14px;
     }
 
+    .article-image {
+      width: calc(100% + 40px);
+      height: 160px;
+      object-fit: cover;
+      margin: -20px -20px 16px;
+      border-radius: 12px 12px 0 0;
+      background: var(--bg);
+    }
+
     .tag {
       display: inline-block;
       background: var(--bg);
@@ -521,6 +530,17 @@
           link.target = "_blank";
           link.rel = "noopener";
           link.textContent = "Lire l’article →";
+
+          if (article.image) {
+            const image = document.createElement("img");
+            image.className = "article-image";
+            image.src = article.image;
+            image.alt = article.title || "Illustration de l’article";
+            image.loading = "lazy";
+            image.onerror = () => image.remove();
+
+            card.appendChild(image);
+          }
 
           content.appendChild(tag);
           content.appendChild(title);
