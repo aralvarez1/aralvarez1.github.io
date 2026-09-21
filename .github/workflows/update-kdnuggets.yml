@@ -24,7 +24,7 @@ jobs:
       - name: Installer feedparser
         run: pip install feedparser
 
-      - name: Récupérer les articles et leurs images
+      - name: Récupérer les articles, catégories et images
         run: |
           mkdir -p data
 
@@ -55,41 +55,41 @@ jobs:
           def get_image(entry):
               """Récupère l'image associée à un article RSS."""
 
-              # Priorité 1 : media:content
               media_content = entry.get("media_content", [])
-              if media_content:
-                  for media in media_content:
-                      if media.get("url"):
-                          return media["url"]
+              for media in media_content:
+                  if media.get("url"):
+                      return media["url"]
 
-              # Priorité 2 : media:thumbnail
               media_thumbnail = entry.get("media_thumbnail", [])
-              if media_thumbnail:
-                  for media in media_thumbnail:
-                      if media.get("url"):
-                          return media["url"]
+              for media in media_thumbnail:
+                  if media.get("url"):
+                      return media["url"]
 
-              # Priorité 3 : image déclarée dans le flux
               image = entry.get("image", {})
               if isinstance(image, dict) and image.get("href"):
                   return image["href"]
 
-              # Priorité 4 : image présente dans le contenu complet RSS
               content_list = entry.get("content", [])
-              if content_list:
-                  for content in content_list:
-                      image_url = extract_image_from_html(
-                          content.get("value", "")
-                      )
-                      if image_url:
-                          return image_url
+              for content in content_list:
+                  image_url = extract_image_from_html(
+                      content.get("value", "")
+                  )
+                  if image_url:
+                      return image_url
 
-              # Priorité 5 : image présente dans le résumé RSS
-              image_url = extract_image_from_html(entry.get("summary", ""))
-              if image_url:
-                  return image_url
+              return extract_image_from_html(entry.get("summary", ""))
 
-              return ""
+
+          def get_category(entry):
+              """Récupère la première catégorie attribuée par KDNuggets."""
+              tags = entry.get("tags", [])
+
+              for tag in tags:
+                  category = tag.get("term", "").strip()
+                  if category:
+                      return category
+
+              return "Data & IA"
 
 
           feed_url = "https://www.kdnuggets.com/feed"
@@ -97,7 +97,7 @@ jobs:
 
           if feed.bozo and not feed.entries:
               raise RuntimeError(
-                  f"Impossible de récupérer le flux KDNuggets : {feed.bozo_exception}"
+                  f"Impossible de récupérer le flux : {feed.bozo_exception}"
               )
 
           articles = []
@@ -121,6 +121,7 @@ jobs:
                       "https://www.kdnuggets.com/"
                   ),
                   "date": date,
+                  "category": get_category(entry),
                   "image": get_image(entry)
               })
 
@@ -139,7 +140,7 @@ jobs:
           print(f"{len(articles)} article(s) enregistré(s).")
           PY
 
-      - name: Enregistrer les nouveaux articles
+      - name: Enregistrer les nouveautés
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
