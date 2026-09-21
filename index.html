@@ -1,288 +1,549 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arthur — Portfolio Data Analyst</title>
-<style>
-  :root {
-    --bg: #0f172a;
-    --card: #1e293b;
-    --accent: #38bdf8;
-    --text: #e2e8f0;
-    --muted: #94a3b8;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: "Segoe UI", system-ui, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.6;
-  }
-  header {
-    padding: 60px 20px 40px;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  header h1 { font-size: 2.2rem; margin-bottom: 8px; }
-  header p.subtitle { color: var(--accent); font-size: 1.1rem; margin-bottom: 16px; }
-  header p.bio { color: var(--muted); max-width: 600px; margin: 0 auto 20px; }
-  .links { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
-  .links a {
-    color: var(--text);
-    background: var(--card);
-    padding: 8px 18px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 0.9rem;
-    border: 1px solid #334155;
-    transition: 0.2s;
-  }
-  .links a:hover { border-color: var(--accent); color: var(--accent); }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arthur — Portfolio Data Analyst</title>
 
-  main { max-width: 1000px; margin: 0 auto; padding: 20px 20px 80px; }
-  .section-title {
-    font-size: 1.4rem;
-    margin: 50px 0 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #334155;
-  }
-  .tier1 .section-title { color: #facc15; border-color: #facc15; }
-  .tier2 .section-title { color: #38bdf8; border-color: #38bdf8; }
-  .tier3 .section-title { color: #94a3b8; border-color: #334155; }
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --accent: #38bdf8;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --border: #334155;
+    }
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
-  }
-  .card {
-    background: var(--card);
-    border-radius: 12px;
-    padding: 20px;
-    border: 1px solid #334155;
-    transition: 0.2s;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .card:hover { border-color: var(--accent); transform: translateY(-3px); }
-  .card h3 { font-size: 1.05rem; margin-bottom: 8px; }
-  .card p { color: var(--muted); font-size: 0.88rem; margin-bottom: 14px; }
-  .tag {
-    display: inline-block;
-    background: #0f172a;
-    color: var(--accent);
-    font-size: 0.72rem;
-    padding: 3px 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-  }
-  .card a.repo-link {
-    color: var(--accent);
-    text-decoration: none;
-    font-size: 0.85rem;
-    font-weight: 600;
-  }
-  .card a.repo-link:hover { text-decoration: underline; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  /* RSS */
-  .rss-section {
-    background: var(--card);
-    border-top: 1px solid #334155;
-    padding: 30px 20px;
-  }
-  .rss-section h2 {
-    text-align: center;
-    font-size: 1rem;
-    color: var(--muted);
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-  }
-  .rss-wrapper {
-  max-width: 1000px;
-  max-height: 480px;
-  overflow-y: auto;
-  margin: 0 auto;
-  border-radius: 10px;
-  scrollbar-width: thin;
-  scrollbar-color: #475569 #1e293b;
-}
-.rss-wrapper::-webkit-scrollbar {
-  width: 8px;
-}
-.rss-wrapper::-webkit-scrollbar-track {
-  background: #1e293b;
-  border-radius: 10px;
-}
-.rss-wrapper::-webkit-scrollbar-thumb {
-  background-color: #475569;
-  border-radius: 10px;
-}
-.rss-wrapper::-webkit-scrollbar-thumb:hover {
-  background-color: #38bdf8;
-}
-  .rss-section rssapp-wall {
-    display: block;
-    width: 100%;
-  }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
 
-  footer {
-    text-align: center;
-    padding: 30px 20px;
-    color: var(--muted);
-    font-size: 0.85rem;
-    border-top: 1px solid #334155;
-  }
-</style>
+    header {
+      padding: 60px 20px 40px;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+    }
+
+    header p.subtitle {
+      color: var(--accent);
+      font-size: 1.1rem;
+      margin-bottom: 16px;
+    }
+
+    header p.bio {
+      color: var(--muted);
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      color: var(--text);
+      background: var(--card);
+      padding: 8px 18px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      border: 1px solid var(--border);
+      transition: 0.2s;
+    }
+
+    .links a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px 20px 80px;
+    }
+
+    .section-title {
+      font-size: 1.4rem;
+      margin: 50px 0 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .tier1 .section-title {
+      color: #facc15;
+      border-color: #facc15;
+    }
+
+    .tier2 .section-title {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .tier3 .section-title {
+      color: var(--muted);
+      border-color: var(--border);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid var(--border);
+      transition: 0.2s;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-3px);
+    }
+
+    .card h3 {
+      font-size: 1.05rem;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-bottom: 14px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--bg);
+      color: var(--accent);
+      font-size: 0.72rem;
+      padding: 3px 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .card a.repo-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .card a.repo-link:hover {
+      text-decoration: underline;
+    }
+
+    .rss-section {
+      background: var(--card);
+      border-top: 1px solid var(--border);
+      padding: 50px 20px;
+    }
+
+    .rss-container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .rss-section h2 {
+      text-align: center;
+      font-size: 1.4rem;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .rss-section .rss-description {
+      text-align: center;
+      color: var(--muted);
+      margin-bottom: 28px;
+      font-size: 0.9rem;
+    }
+
+    .rss-section .rss-description a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .rss-section .rss-description a:hover {
+      text-decoration: underline;
+    }
+
+    .rss-status {
+      grid-column: 1 / -1;
+      text-align: center;
+      color: var(--muted);
+      padding: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
 </head>
+
 <body>
 
-<header>
-  <h1>Arthur</h1>
-  <p class="subtitle">Data Analyst — Reporting, Visualisation, Automatisation</p>
-  <p class="bio">
-    Data Analyst chez Schmidt Groupe. En formation Data Analyst chez OpenClassrooms.
-    Python, SQL, Java, SAP BusinessObjects BI. Ce portfolio regroupe mes projets
-    d'analyse de données réalisés en formation et à titre personnel.
-  </p>
-  <div class="links">
-    <a href="https://github.com/aralvarez1" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn</a>
-    <a href="mailto:arthur.alvarez@groupe.schmidt">Email</a>
-  </div>
-</header>
+  <header>
+    <h1>Arthur</h1>
 
-<main>
+    <p class="subtitle">
+      Data Analyst — Reporting, Visualisation, Automatisation
+    </p>
 
-  <section class="tier1">
-    <h2 class="section-title">Projets phares</h2>
-    <div class="grid">
-      <div class="card">
-        <div>
-          <span class="tag">Python · PyQt6</span>
-          <h3>Détection de faux billets</h3>
-          <p>Modèle de classification (régression logistique, K-means) avec interface desktop pour détecter les faux billets.</p>
-        </div>
-        <a class="repo-link" href="https://github.com/aralvarez1/fake-bill-detection" target="_blank">Voir le repo →</a>
+    <p class="bio">
+      Data Analyst chez Schmidt Groupe. En formation Data Analyst chez OpenClassrooms.
+      Python, SQL, Java, SAP BusinessObjects BI. Ce portfolio regroupe mes projets
+      d'analyse de données réalisés en formation et à titre personnel.
+    </p>
+
+    <div class="links">
+      <a href="https://github.com/aralvarez1" target="_blank" rel="noopener">
+        GitHub
+      </a>
+
+      <!-- Remplace YOUR-LINKEDIN par ton identifiant LinkedIn -->
+      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">
+        LinkedIn
+      </a>
+
+      <a href="mailto:arthur.alvarez@groupe.schmidt">
+        Email
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="tier1">
+      <h2 class="section-title">Projets phares</h2>
+
+      <div class="grid">
+        <article class="card">
+          <div>
+            <span class="tag">Python · PyQt6</span>
+            <h3>Détection de faux billets</h3>
+            <p>
+              Modèle de classification (régression logistique, K-means) avec
+              interface desktop pour détecter les faux billets.
+            </p>
+          </div>
+
+          <a class="repo-link"
+             href="https://github.com/aralvarez1/fake-bill-detection"
+             target="_blank"
+             rel="noopener">
+            Voir le repo →
+          </a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="tag">Python</span>
+            <h3>Analyse des ventes — Librairie Lapage</h3>
+            <p>
+              Indicateurs de vente et analyse du comportement client pour une
+              librairie en ligne, restitution CODIR.
+            </p>
+          </div>
+
+          <a class="repo-link"
+             href="https://github.com/aralvarez1/bookstore-sales-analysis"
+             target="_blank"
+             rel="noopener">
+            Voir le repo →
+          </a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="tag">Power BI</span>
+            <h3>Tableau de bord dynamique</h3>
+            <p>
+              Dashboard interactif avec KPIs, filtres dynamiques et navigation
+              multi-pages.
+            </p>
+          </div>
+
+          <a class="repo-link"
+             href="https://github.com/aralvarez1/dynamic-dashboard-powerbi"
+             target="_blank"
+             rel="noopener">
+            Voir le repo →
+          </a>
+        </article>
       </div>
+    </section>
 
-      <div class="card">
-        <div>
-          <span class="tag">Python</span>
-          <h3>Analyse des ventes — Librairie Lapage</h3>
-          <p>Indicateurs de vente et analyse du comportement client pour une librairie en ligne, restitution CODIR.</p>
-        </div>
-        <a class="repo-link" href="https://github.com/aralvarez1/bookstore-sales-analysis" target="_blank">Voir le repo →</a>
+    <section class="tier2">
+      <h2 class="section-title">Autres projets</h2>
+
+      <div class="grid">
+        <article class="card">
+          <div>
+            <span class="tag">KNIME</span>
+            <h3>Automatisation de flux</h3>
+            <p>
+              Workflow automatisé d'extraction, transformation et chargement de
+              données pour un reporting récurrent.
+            </p>
+          </div>
+
+          <a class="repo-link"
+             href="https://github.com/aralvarez1/workflow-automation-knime"
+             target="_blank"
+             rel="noopener">
+            Voir le repo →
+          </a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="tag">Python</span>
+            <h3>Gestion des données — BottleNeck</h3>
+            <p>
+              Rapprochement de données multi-sources, correction d'erreurs et
+              analyse CA/stocks pour un marchand de vin.
+            </p>
+          </div>
+
+          <a class="repo-link"
+             href="https://github.com/aralvarez1/retail-data-management"
+             target="_blank"
+             rel="noopener">
+            Voir le repo →
+          </a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="tag">Python · FAO</span>
+            <h3>Étude santé publique / alimentation</h3>
+            <p>
+              Analyse de la disponibilité alimentaire mondiale pour identifier
+              les zones de vulnérabilité.
+            </p>
+          </div>
+
+          <a class="repo-link"
+             href="https://github.com/aralvarez1/public-health-food-analysis"
+             target="_blank"
+             rel="noopener">
+            Voir le repo →
+          </a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="tag">SQL</span>
+            <h3>Base de données immobilière</h3>
+            <p>
+              Conception d'une base relationnelle et requêtes SQL pour la gestion
+              de biens immobiliers.
+            </p>
+          </div>
+
+          <a class="repo-link"
+             href="https://github.com/aralvarez1/real-estate-database-sql"
+             target="_blank"
+             rel="noopener">
+            Voir le repo →
+          </a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="tag">Tableau</span>
+            <h3>Étude eau potable</h3>
+            <p>
+              Dashboard mondial sur l'accès à l'eau potable, cartographie des
+              zones de pénurie.
+            </p>
+          </div>
+
+          <a class="repo-link"
+             href="https://github.com/aralvarez1/drinking-water-study-tableau"
+             target="_blank"
+             rel="noopener">
+            Voir le repo →
+          </a>
+        </article>
       </div>
+    </section>
 
-      <div class="card">
-        <div>
-          <span class="tag">Power BI</span>
-          <h3>Tableau de bord dynamique</h3>
-          <p>Dashboard interactif avec KPIs, filtres dynamiques et navigation multi-pages.</p>
-        </div>
-        <a class="repo-link" href="https://github.com/aralvarez1/dynamic-dashboard-powerbi" target="_blank">Voir le repo →</a>
+    <section class="tier3">
+      <h2 class="section-title">Projets complémentaires</h2>
+
+      <div class="grid">
+        <article class="card">
+          <div>
+            <span class="tag">Python · RGPD</span>
+            <h3>Indicateurs d'égalité F/H</h3>
+            <p>
+              Calcul des indicateurs d'égalité professionnelle dans le respect
+              du RGPD.
+            </p>
+          </div>
+
+          <a class="repo-link"
+             href="https://github.com/aralvarez1/gender-equality-indicators"
+             target="_blank"
+             rel="noopener">
+            Voir le repo →
+          </a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="tag">Python</span>
+            <h3>Étude de marché</h3>
+            <p>
+              Clustering et scoring de pays pour orienter une décision
+              d'expansion internationale.
+            </p>
+          </div>
+
+          <a class="repo-link"
+             href="https://github.com/aralvarez1/market-research-analysis"
+             target="_blank"
+             rel="noopener">
+            Voir le repo →
+          </a>
+        </article>
+
+        <article class="card">
+          <div>
+            <span class="tag">Python</span>
+            <h3>Analyse de ventes e-commerce</h3>
+            <p>
+              Segmentation clients RFM et analyse du catalogue pour un site
+              e-commerce.
+            </p>
+          </div>
+
+          <a class="repo-link"
+             href="https://github.com/aralvarez1/ecommerce-sales-analysis"
+             target="_blank"
+             rel="noopener">
+            Voir le repo →
+          </a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="rss-section">
+    <div class="rss-container">
+      <h2>Veille Data & IA</h2>
+
+      <p class="rss-description">
+        Derniers articles issus de
+        <a href="https://www.kdnuggets.com/" target="_blank" rel="noopener">
+          KDNuggets
+        </a>.
+      </p>
+
+      <div id="rss-feed" class="grid">
+        <p class="rss-status">Chargement des derniers articles…</p>
       </div>
     </div>
   </section>
 
-  <section class="tier2">
-    <h2 class="section-title">Autres projets</h2>
-    <div class="grid">
-      <div class="card">
-        <div>
-          <span class="tag">KNIME</span>
-          <h3>Automatisation de flux</h3>
-          <p>Workflow automatisé d'extraction, transformation et chargement de données pour un reporting récurrent.</p>
-        </div>
-        <a class="repo-link" href="https://github.com/aralvarez1/workflow-automation-knime" target="_blank">Voir le repo →</a>
-      </div>
+  <footer>
+    © 2026 Arthur — Portfolio Data Analyst
+  </footer>
 
-      <div class="card">
-        <div>
-          <span class="tag">Python</span>
-          <h3>Gestion des données — BottleNeck</h3>
-          <p>Rapprochement de données multi-sources, correction d'erreurs et analyse CA/stocks pour un marchand de vin.</p>
-        </div>
-        <a class="repo-link" href="https://github.com/aralvarez1/retail-data-management" target="_blank">Voir le repo →</a>
-      </div>
+  <script>
+    async function loadKDNuggetsFeed() {
+      const container = document.getElementById("rss-feed");
 
-      <div class="card">
-        <div>
-          <span class="tag">Python · FAO</span>
-          <h3>Étude santé publique / alimentation</h3>
-          <p>Analyse de la disponibilité alimentaire mondiale pour identifier les zones de vulnérabilité.</p>
-        </div>
-        <a class="repo-link" href="https://github.com/aralvarez1/public-health-food-analysis" target="_blank">Voir le repo →</a>
-      </div>
+      try {
+        const response = await fetch("./data/kdnuggets.json");
 
-      <div class="card">
-        <div>
-          <span class="tag">SQL</span>
-          <h3>Base de données immobilière</h3>
-          <p>Conception d'une base relationnelle et requêtes SQL pour la gestion de biens immobiliers.</p>
-        </div>
-        <a class="repo-link" href="https://github.com/aralvarez1/real-estate-database-sql" target="_blank">Voir le repo →</a>
-      </div>
+        if (!response.ok) {
+          throw new Error("Le fichier des articles est introuvable.");
+        }
 
-      <div class="card">
-        <div>
-          <span class="tag">Tableau</span>
-          <h3>Étude eau potable</h3>
-          <p>Dashboard mondial sur l'accès à l'eau potable, cartographie des zones de pénurie.</p>
-        </div>
-        <a class="repo-link" href="https://github.com/aralvarez1/drinking-water-study-tableau" target="_blank">Voir le repo →</a>
-      </div>
-    </div>
-  </section>
+        const articles = await response.json();
 
-  <section class="tier3">
-    <h2 class="section-title">Projets complémentaires</h2>
-    <div class="grid">
-      <div class="card">
-        <div>
-          <span class="tag">Python · RGPD</span>
-          <h3>Indicateurs d'égalité F/H</h3>
-          <p>Calcul des indicateurs d'égalité professionnelle dans le respect du RGPD.</p>
-        </div>
-        <a class="repo-link" href="https://github.com/aralvarez1/gender-equality-indicators" target="_blank">Voir le repo →</a>
-      </div>
+        if (!Array.isArray(articles) || articles.length === 0) {
+          throw new Error("Aucun article disponible.");
+        }
 
-      <div class="card">
-        <div>
-          <span class="tag">Python</span>
-          <h3>Étude de marché</h3>
-          <p>Clustering et scoring de pays pour orienter une décision d'expansion internationale.</p>
-        </div>
-        <a class="repo-link" href="https://github.com/aralvarez1/market-research-analysis" target="_blank">Voir le repo →</a>
-      </div>
+        container.innerHTML = "";
 
-      <div class="card">
-        <div>
-          <span class="tag">Python</span>
-          <h3>Analyse de ventes e-commerce</h3>
-          <p>Segmentation clients RFM et analyse du catalogue pour un site e-commerce.</p>
-        </div>
-        <a class="repo-link" href="https://github.com/aralvarez1/ecommerce-sales-analysis" target="_blank">Voir le repo →</a>
-      </div>
-    </div>
-  </section>
+        articles.forEach((article) => {
+          const card = document.createElement("article");
+          card.className = "card";
 
-</main>
+          const content = document.createElement("div");
 
-<section class="rss-section">
-  <div class="rss-wrapper">
-    <rssapp-wall id="tIdH2gu4uf3zoJ5E"></rssapp-wall>
-    <script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
-  </div>
-</section>
+          const tag = document.createElement("span");
+          tag.className = "tag";
+          tag.textContent = "KDNuggets";
 
-<footer>
-  © 2026 Arthur — Portfolio Data Analyst
-</footer>
+          const title = document.createElement("h3");
+          title.textContent = article.title || "Article sans titre";
+
+          const date = document.createElement("p");
+          date.textContent = article.date || "";
+
+          const link = document.createElement("a");
+          link.className = "repo-link";
+          link.href = article.link || "https://www.kdnuggets.com/";
+          link.target = "_blank";
+          link.rel = "noopener";
+          link.textContent = "Lire l’article →";
+
+          content.appendChild(tag);
+          content.appendChild(title);
+          content.appendChild(date);
+
+          card.appendChild(content);
+          card.appendChild(link);
+
+          container.appendChild(card);
+        });
+      } catch (error) {
+        container.innerHTML = `
+          <p class="rss-status">
+            Les articles KDNuggets ne sont pas encore disponibles.
+          </p>
+        `;
+
+        console.error("Erreur lors du chargement du flux :", error);
+      }
+    }
+
+    loadKDNuggetsFeed();
+  </script>
 
 </body>
 </html>
