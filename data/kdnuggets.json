@@ -1,5 +1,14 @@
 [
   {
+    "title": "7 Open-Source Alternatives to ChatGPT You Can Run Locally",
+    "link": "https://www.kdnuggets.com/7-open-source-alternatives-to-chatgpt-you-can-run-locally",
+    "date": "22/09/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_7_opensource_alternatives_chatgpt_run_locally_2.png"
+  },
+  {
     "title": "What Everyone Is Getting Wrong About TypeSafe AI’s Jev",
     "link": "https://www.kdnuggets.com/what-everyone-is-getting-wrong-about-typesafe-ais-jev",
     "date": "21/09/2026",
@@ -71,14 +80,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-cheat-sheet-skllm-estimators-feature.png"
-  },
-  {
-    "title": "How to Build Effective Evals for AI Agents",
-    "link": "https://www.kdnuggets.com/how-to-build-effective-evals-for-ai-agents",
-    "date": "16/09/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/bala-effective-evals-for-agents.png"
   }
 ]
