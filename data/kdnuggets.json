@@ -1,5 +1,14 @@
 [
   {
+    "title": "Bravely AI Browsing with Leo",
+    "link": "https://www.kdnuggets.com/bravely-ai-browsing-with-leo",
+    "date": "22/09/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-bravely-ai-browsing-leo-feature.png"
+  },
+  {
     "title": "7 Open-Source Alternatives to ChatGPT You Can Run Locally",
     "link": "https://www.kdnuggets.com/7-open-source-alternatives-to-chatgpt-you-can-run-locally",
     "date": "22/09/2026",
@@ -70,15 +79,5 @@
       "Career Advice"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-free-zoomcamps-from-data-pipelines-to-ai-agents-feature.png"
-  },
-  {
-    "title": "Estimators in Scikit-LLM: A KDnuggets Cheat Sheet",
-    "link": "https://www.kdnuggets.com/estimators-in-scikit-llm-a-kdnuggets-cheat-sheet",
-    "date": "16/09/2026",
-    "tags": [
-      "Cheat Sheets",
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-cheat-sheet-skllm-estimators-feature.png"
   }
 ]
