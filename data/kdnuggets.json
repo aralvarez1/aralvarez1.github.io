@@ -1,5 +1,33 @@
 [
   {
+    "title": "Everything Claude Opus 5.5 Actually Ships With",
+    "link": "https://www.kdnuggets.com/everything-claude-opus-5-5-actually-ships-with",
+    "date": "23/09/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Claude-Opus-5.5-scaled.png"
+  },
+  {
+    "title": "Why Most Data Science Notebooks Die After Day One: How to Build Ones That Survive",
+    "link": "https://www.kdnuggets.com/why-most-data-science-notebooks-die-after-day-one-how-to-build-ones-that-survive",
+    "date": "23/09/2026",
+    "tags": [
+      "Data Science"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Notebooks-That-Survive-1.png"
+  },
+  {
+    "title": "High-Performance Data Processing with Polars: A KDnuggets Cheat Sheet",
+    "link": "https://www.kdnuggets.com/high-performance-data-processing-with-polars-a-cheat-sheet",
+    "date": "23/09/2026",
+    "tags": [
+      "Cheat Sheets",
+      "Data Science"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-high-performance-data-processing-with-polars-a-cheat-sheet-feature.png"
+  },
+  {
     "title": "Bravely AI Browsing with Leo",
     "link": "https://www.kdnuggets.com/bravely-ai-browsing-with-leo",
     "date": "22/09/2026",
@@ -52,32 +80,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-reusing-the-prompt-prefix-with-a-key-value-cache-for-slm-optimization-feature.png"
-  },
-  {
-    "title": "5 Prompt Optimization Strategies That Actually Improve LLM Output",
-    "link": "https://www.kdnuggets.com/5-prompt-optimization-strategies-that-actually-improve-llm-output",
-    "date": "18/09/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-5-Prompt-Optimization-Strategies-That-Actually-Improve-LLM-Output-scaled.png"
-  },
-  {
-    "title": "What’s So Good About ChatGPT Work? Here’s What I Found",
-    "link": "https://www.kdnuggets.com/whats-so-good-about-chatgpt-work-heres-what-i-found",
-    "date": "17/09/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Whats-So-Good-About-ChatGPT-Work-scaled.png"
-  },
-  {
-    "title": "5 Free Zoomcamps From Data Pipelines to AI Agents",
-    "link": "https://www.kdnuggets.com/5-free-zoomcamps-from-data-pipelines-to-ai-agents",
-    "date": "17/09/2026",
-    "tags": [
-      "Career Advice"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-free-zoomcamps-from-data-pipelines-to-ai-agents-feature.png"
   }
 ]
