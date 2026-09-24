@@ -1,5 +1,23 @@
 [
   {
+    "title": "MCP Explained in 5 Minutes",
+    "link": "https://www.kdnuggets.com/mcp-explained-in-5-minutes",
+    "date": "24/09/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_mcp_explained_5_minutes_5.png"
+  },
+  {
+    "title": "What I’ve Learned About DeepSeek Harness",
+    "link": "https://www.kdnuggets.com/what-ive-learned-about-deepseek-harness",
+    "date": "24/09/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-DeepSeek-Harness-scaled.png"
+  },
+  {
     "title": "Everything Claude Opus 5.5 Actually Ships With",
     "link": "https://www.kdnuggets.com/everything-claude-opus-5-5-actually-ships-with",
     "date": "23/09/2026",
@@ -62,23 +80,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/awan_turn_python_script_ai_agent_4.png"
-  },
-  {
-    "title": "3 Polars Tricks for High-Performance Data Manipulation",
-    "link": "https://www.kdnuggets.com/3-polars-tricks-for-high-performance-data-manipulation",
-    "date": "21/09/2026",
-    "tags": [
-      "Python"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-3-polars-tricks-for-high-performance-data-manipulation-feature.png"
-  },
-  {
-    "title": "Reusing the Prompt Prefix with a Key-Value Cache for SLM Optimization",
-    "link": "https://www.kdnuggets.com/reusing-the-prompt-prefix-with-a-key-value-cache-for-slm-optimization",
-    "date": "18/09/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-reusing-the-prompt-prefix-with-a-key-value-cache-for-slm-optimization-feature.png"
   }
 ]
