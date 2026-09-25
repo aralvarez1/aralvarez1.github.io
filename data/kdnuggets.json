@@ -1,5 +1,14 @@
 [
   {
+    "title": "Batching by Length Instead of Looping Item by Item for SLM Optimization",
+    "link": "https://www.kdnuggets.com/batching-by-length-instead-of-looping-item-by-item-for-slm-optimization",
+    "date": "25/09/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-batching-by-length-instead-of-looping-item-by-item-for-slm-optimization-feature.png"
+  },
+  {
     "title": "7 Advanced Python Tricks to Level Up Your Coding Skills",
     "link": "https://www.kdnuggets.com/7-advanced-python-tricks-to-level-up-your-coding-skills",
     "date": "25/09/2026",
@@ -71,14 +80,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/awan_7_opensource_alternatives_chatgpt_run_locally_2.png"
-  },
-  {
-    "title": "What Everyone Is Getting Wrong About TypeSafe AI’s Jev",
-    "link": "https://www.kdnuggets.com/what-everyone-is-getting-wrong-about-typesafe-ais-jev",
-    "date": "21/09/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_everyone_getting_wrong_typesafe_ais_jev_2.png"
   }
 ]
