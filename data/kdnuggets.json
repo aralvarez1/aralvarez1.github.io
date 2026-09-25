@@ -1,5 +1,14 @@
 [
   {
+    "title": "7 Advanced Python Tricks to Level Up Your Coding Skills",
+    "link": "https://www.kdnuggets.com/7-advanced-python-tricks-to-level-up-your-coding-skills",
+    "date": "25/09/2026",
+    "tags": [
+      "Python"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-advanced-python-tricks-to-level-up-your-coding-skills-feature.png"
+  },
+  {
     "title": "MCP Explained in 5 Minutes",
     "link": "https://www.kdnuggets.com/mcp-explained-in-5-minutes",
     "date": "24/09/2026",
@@ -71,14 +80,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/awan_everyone_getting_wrong_typesafe_ais_jev_2.png"
-  },
-  {
-    "title": "How to Turn a Python Script Into an AI Agent",
-    "link": "https://www.kdnuggets.com/how-to-turn-a-python-script-into-an-ai-agent",
-    "date": "21/09/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_turn_python_script_ai_agent_4.png"
   }
 ]
