@@ -1,5 +1,14 @@
 [
   {
+    "title": "Gemini 3.5 Transcribe vs OpenAI’s GPT-Transcribe",
+    "link": "https://www.kdnuggets.com/gemini-3-5-transcribe-vs-openais-gpt-transcribe",
+    "date": "28/09/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Gemini-3.5-Transcribe-vs-OpenAIs-GPT-Transcribe-scaled.png"
+  },
+  {
     "title": "3 Numba Tricks for Python Runtime Optimization",
     "link": "https://www.kdnuggets.com/3-numba-tricks-for-python-runtime-optimization",
     "date": "28/09/2026",
@@ -71,14 +80,5 @@
       "Data Science"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-high-performance-data-processing-with-polars-a-cheat-sheet-feature.png"
-  },
-  {
-    "title": "Bravely AI Browsing with Leo",
-    "link": "https://www.kdnuggets.com/bravely-ai-browsing-with-leo",
-    "date": "22/09/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-bravely-ai-browsing-leo-feature.png"
   }
 ]
