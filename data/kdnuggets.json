@@ -1,5 +1,14 @@
 [
   {
+    "title": "5 Free Courses to Learn AI Engineering",
+    "link": "https://www.kdnuggets.com/5-free-courses-to-learn-ai-engineering",
+    "date": "29/09/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_5_free_courses_learn_ai_engineering_1.png"
+  },
+  {
     "title": "Gemini 3.5 Transcribe vs OpenAI’s GPT-Transcribe",
     "link": "https://www.kdnuggets.com/gemini-3-5-transcribe-vs-openais-gpt-transcribe",
     "date": "28/09/2026",
@@ -70,15 +79,5 @@
       "Data Science"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Notebooks-That-Survive-1.png"
-  },
-  {
-    "title": "High-Performance Data Processing with Polars: A KDnuggets Cheat Sheet",
-    "link": "https://www.kdnuggets.com/high-performance-data-processing-with-polars-a-cheat-sheet",
-    "date": "23/09/2026",
-    "tags": [
-      "Cheat Sheets",
-      "Data Science"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-high-performance-data-processing-with-polars-a-cheat-sheet-feature.png"
   }
 ]
