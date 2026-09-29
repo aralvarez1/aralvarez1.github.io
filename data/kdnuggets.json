@@ -1,5 +1,24 @@
 [
   {
+    "title": "How to Turn Excel Data Into PowerPoint Presentations With AI",
+    "link": "https://www.kdnuggets.com/julius.ai/how-to-turn-excel-data-into-powerpoint-presentations-with-ai",
+    "date": "29/09/2026",
+    "tags": [
+      "Products and Services",
+      "Partners"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/image2-21.png"
+  },
+  {
+    "title": "SuperWhisper s1-mini: The 600M Parameter Model Built Just for Transcription",
+    "link": "https://www.kdnuggets.com/superwhisper-s1-mini-the-600m-parameter-model-built-just-for-transcription",
+    "date": "29/09/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-SuperWhisper-s1-mini-scaled.png"
+  },
+  {
     "title": "5 Free Courses to Learn AI Engineering",
     "link": "https://www.kdnuggets.com/5-free-courses-to-learn-ai-engineering",
     "date": "29/09/2026",
@@ -61,23 +80,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-DeepSeek-Harness-scaled.png"
-  },
-  {
-    "title": "Everything Claude Opus 5.5 Actually Ships With",
-    "link": "https://www.kdnuggets.com/everything-claude-opus-5-5-actually-ships-with",
-    "date": "23/09/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Claude-Opus-5.5-scaled.png"
-  },
-  {
-    "title": "Why Most Data Science Notebooks Die After Day One: How to Build Ones That Survive",
-    "link": "https://www.kdnuggets.com/why-most-data-science-notebooks-die-after-day-one-how-to-build-ones-that-survive",
-    "date": "23/09/2026",
-    "tags": [
-      "Data Science"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Notebooks-That-Survive-1.png"
   }
 ]
