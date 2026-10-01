@@ -1,5 +1,33 @@
 [
   {
+    "title": "BrowserAct AI Web Scraper in 2026: Build Once, Run Repeatedly",
+    "link": "https://www.kdnuggets.com/2026/09/browseractai/browseract-ai-web-scraper-in-2026-build-once-run-repeatedly",
+    "date": "01/10/2026",
+    "tags": [
+      "Products and Services",
+      "Partners"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdnuggets-browseract-cover-1200x675-1.png"
+  },
+  {
+    "title": "From Messy Documents to Structured Data with Docling",
+    "link": "https://www.kdnuggets.com/from-messy-documents-to-structured-data-with-docling",
+    "date": "01/10/2026",
+    "tags": [
+      "Python"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-From-Messy-Documents-to-Structured-Data-with-Docling-scaled.png"
+  },
+  {
+    "title": "How to Use Marimo for Interactive Data Analysis",
+    "link": "https://www.kdnuggets.com/how-to-use-marimo-for-interactive-data-analysis",
+    "date": "01/10/2026",
+    "tags": [
+      "Data Science"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_marimo_interactive_data_analysis_4.png"
+  },
+  {
     "title": "10 Python One-Liners That Will Make Your Code Cleaner and Faster",
     "link": "https://www.kdnuggets.com/10-python-one-liners-that-will-make-your-code-cleaner-and-faster",
     "date": "01/10/2026",
@@ -54,32 +82,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/awan_5_free_courses_learn_ai_engineering_1.png"
-  },
-  {
-    "title": "Gemini 3.5 Transcribe vs OpenAI’s GPT-Transcribe",
-    "link": "https://www.kdnuggets.com/gemini-3-5-transcribe-vs-openais-gpt-transcribe",
-    "date": "28/09/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Gemini-3.5-Transcribe-vs-OpenAIs-GPT-Transcribe-scaled.png"
-  },
-  {
-    "title": "3 Numba Tricks for Python Runtime Optimization",
-    "link": "https://www.kdnuggets.com/3-numba-tricks-for-python-runtime-optimization",
-    "date": "28/09/2026",
-    "tags": [
-      "Python"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-3-numba-tricks-for-python-runtime-optimization-feature.png"
-  },
-  {
-    "title": "Batching by Length Instead of Looping Item by Item for SLM Optimization",
-    "link": "https://www.kdnuggets.com/batching-by-length-instead-of-looping-item-by-item-for-slm-optimization",
-    "date": "25/09/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-batching-by-length-instead-of-looping-item-by-item-for-slm-optimization-feature.png"
   }
 ]
