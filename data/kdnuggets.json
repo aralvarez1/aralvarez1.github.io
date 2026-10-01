@@ -1,5 +1,24 @@
 [
   {
+    "title": "Did AI Just Solve One of Mathematics’ Biggest Problems?",
+    "link": "https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems",
+    "date": "30/09/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_ai_solve_one_mathematics_biggest_problems_story_behind_openais_breakthrough_1.png"
+  },
+  {
+    "title": "Ollama for Managing Local Language Models: A KDnuggets Cheat Sheet",
+    "link": "https://www.kdnuggets.com/ollama-for-managing-local-language-models-a-kdnuggets-cheat-sheet",
+    "date": "30/09/2026",
+    "tags": [
+      "Cheat Sheets",
+      "Language Models"
+    ],
+    "image": ""
+  },
+  {
     "title": "How to Turn Excel Data Into PowerPoint Presentations With AI",
     "link": "https://www.kdnuggets.com/julius.ai/how-to-turn-excel-data-into-powerpoint-presentations-with-ai",
     "date": "29/09/2026",
@@ -62,23 +81,5 @@
       "Python"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-advanced-python-tricks-to-level-up-your-coding-skills-feature.png"
-  },
-  {
-    "title": "MCP Explained in 5 Minutes",
-    "link": "https://www.kdnuggets.com/mcp-explained-in-5-minutes",
-    "date": "24/09/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_mcp_explained_5_minutes_5.png"
-  },
-  {
-    "title": "What I’ve Learned About DeepSeek Harness",
-    "link": "https://www.kdnuggets.com/what-ive-learned-about-deepseek-harness",
-    "date": "24/09/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-DeepSeek-Harness-scaled.png"
   }
 ]
