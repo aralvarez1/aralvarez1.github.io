@@ -1,5 +1,14 @@
 [
   {
+    "title": "10 Python One-Liners That Will Make Your Code Cleaner and Faster",
+    "link": "https://www.kdnuggets.com/10-python-one-liners-that-will-make-your-code-cleaner-and-faster",
+    "date": "01/10/2026",
+    "tags": [
+      "Python"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-10-python-one-liners-that-will-make-your-code-cleaner-and-faster-feature.png"
+  },
+  {
     "title": "Did AI Just Solve One of Mathematics’ Biggest Problems?",
     "link": "https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems",
     "date": "30/09/2026",
@@ -72,14 +81,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-batching-by-length-instead-of-looping-item-by-item-for-slm-optimization-feature.png"
-  },
-  {
-    "title": "7 Advanced Python Tricks to Level Up Your Coding Skills",
-    "link": "https://www.kdnuggets.com/7-advanced-python-tricks-to-level-up-your-coding-skills",
-    "date": "25/09/2026",
-    "tags": [
-      "Python"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-advanced-python-tricks-to-level-up-your-coding-skills-feature.png"
   }
 ]
