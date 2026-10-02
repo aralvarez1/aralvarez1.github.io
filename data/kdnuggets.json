@@ -1,5 +1,14 @@
 [
   {
+    "title": "5 Proven Techniques for Token Compression and Prompt Optimization",
+    "link": "https://www.kdnuggets.com/5-proven-techniques-for-token-compression-and-prompt-optimization",
+    "date": "02/10/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-5-proven-techniques-token-compression-prompt-optimization-feature.png"
+  },
+  {
     "title": "BrowserAct AI Web Scraper in 2026: Build Once, Run Repeatedly",
     "link": "https://www.kdnuggets.com/2026/09/browseractai/browseract-ai-web-scraper-in-2026-build-once-run-repeatedly",
     "date": "01/10/2026",
@@ -73,14 +82,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-SuperWhisper-s1-mini-scaled.png"
-  },
-  {
-    "title": "5 Free Courses to Learn AI Engineering",
-    "link": "https://www.kdnuggets.com/5-free-courses-to-learn-ai-engineering",
-    "date": "29/09/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_5_free_courses_learn_ai_engineering_1.png"
   }
 ]
