@@ -1,5 +1,14 @@
 [
   {
+    "title": "Meta Muse Explained: What It Is, How It Works, and What It Can Do",
+    "link": "https://www.kdnuggets.com/meta-muse-explained-what-it-is-how-it-works-and-what-it-can-do",
+    "date": "05/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": ""
+  },
+  {
     "title": "3 Statsmodels Tricks for Time Series Analysis & Forecasting",
     "link": "https://www.kdnuggets.com/3-statsmodels-tricks-for-time-series-analysis-forecasting",
     "date": "05/10/2026",
@@ -72,14 +81,5 @@
       "Python"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-10-python-one-liners-that-will-make-your-code-cleaner-and-faster-feature.png"
-  },
-  {
-    "title": "Did AI Just Solve One of Mathematics’ Biggest Problems?",
-    "link": "https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems",
-    "date": "30/09/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_ai_solve_one_mathematics_biggest_problems_story_behind_openais_breakthrough_1.png"
   }
 ]
