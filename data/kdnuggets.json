@@ -1,5 +1,14 @@
 [
   {
+    "title": "3 Statsmodels Tricks for Time Series Analysis & Forecasting",
+    "link": "https://www.kdnuggets.com/3-statsmodels-tricks-for-time-series-analysis-forecasting",
+    "date": "05/10/2026",
+    "tags": [
+      "Python"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-3-statsmodels-tricks-for-time-series-analysis-forecasting-feature.png"
+  },
+  {
     "title": "Python Foundations for Engineering: A KDnuggets Cheat Sheet",
     "link": "https://www.kdnuggets.com/python-foundations-for-engineering-a-cheat-sheet",
     "date": "02/10/2026",
@@ -72,15 +81,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/awan_ai_solve_one_mathematics_biggest_problems_story_behind_openais_breakthrough_1.png"
-  },
-  {
-    "title": "Ollama for Managing Local Language Models: A KDnuggets Cheat Sheet",
-    "link": "https://www.kdnuggets.com/ollama-for-managing-local-language-models-a-kdnuggets-cheat-sheet",
-    "date": "30/09/2026",
-    "tags": [
-      "Cheat Sheets",
-      "Language Models"
-    ],
-    "image": ""
   }
 ]
