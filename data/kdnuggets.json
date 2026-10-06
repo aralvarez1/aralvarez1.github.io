@@ -1,11 +1,18 @@
 [
   {
+    "title": "Who Pays for AI Data Centers?",
+    "link": "https://www.kdnuggets.com/who-pays-for-ai-data-centers",
+    "date": "06/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": ""
+  },
+  {
     "title": "5 Best Practices for Building Robust Python AI Libraries",
     "link": "https://www.kdnuggets.com/5-best-practices-for-building-robust-python-ai-libraries",
     "date": "06/10/2026",
-    "tags": [
-      "Python"
-    ],
+    "tags": [],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-5-Best-Practices-for-Building-Robust-Python-AI-Libraries-scaled.png"
   },
   {
@@ -72,14 +79,5 @@
       "Python"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-From-Messy-Documents-to-Structured-Data-with-Docling-scaled.png"
-  },
-  {
-    "title": "How to Use Marimo for Interactive Data Analysis",
-    "link": "https://www.kdnuggets.com/how-to-use-marimo-for-interactive-data-analysis",
-    "date": "01/10/2026",
-    "tags": [
-      "Data Science"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_marimo_interactive_data_analysis_4.png"
   }
 ]
