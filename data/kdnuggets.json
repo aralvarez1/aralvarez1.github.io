@@ -1,5 +1,14 @@
 [
   {
+    "title": "I Tested 5 AI Coding Assistants for a Month: Here’s What I Actually Found",
+    "link": "https://www.kdnuggets.com/i-tested-5-ai-coding-assistants-for-a-month-heres-what-i-actually-found",
+    "date": "07/10/2026",
+    "tags": [
+      "Programming"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-tested-5-ai-coding-assistants-month-feature.png"
+  },
+  {
     "title": "Who Pays for AI Data Centers?",
     "link": "https://www.kdnuggets.com/who-pays-for-ai-data-centers",
     "date": "06/10/2026",
@@ -72,14 +81,5 @@
       "Partners"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdnuggets-browseract-cover-1200x675-1.png"
-  },
-  {
-    "title": "From Messy Documents to Structured Data with Docling",
-    "link": "https://www.kdnuggets.com/from-messy-documents-to-structured-data-with-docling",
-    "date": "01/10/2026",
-    "tags": [
-      "Python"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-From-Messy-Documents-to-Structured-Data-with-Docling-scaled.png"
   }
 ]
