@@ -1,5 +1,23 @@
 [
   {
+    "title": "Bridging Algorithmic Design and Regulatory Standards in Enterprise AI",
+    "link": "https://www.kdnuggets.com/bridging-algorithmic-design-and-regulatory-standards-in-enterprise-ai",
+    "date": "08/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/guerrillabuzz-7hA2wqBcSF8-unsplash-scaled.jpg"
+  },
+  {
+    "title": "Building AI Agents with Docker Agent",
+    "link": "https://www.kdnuggets.com/building-ai-agents-with-docker-agent",
+    "date": "08/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Building-AI-Agents-with-Docker-Agent-scaled.png"
+  },
+  {
     "title": "7 Best Resources to Learn About Self-Evolving AI Agents",
     "link": "https://www.kdnuggets.com/7-best-resources-to-learn-about-self-evolving-ai-agents",
     "date": "08/10/2026",
@@ -61,24 +79,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-meta-muse-explained-what-it-is-how-it-works-and-what-it-can-do-feature.png"
-  },
-  {
-    "title": "3 Statsmodels Tricks for Time Series Analysis & Forecasting",
-    "link": "https://www.kdnuggets.com/3-statsmodels-tricks-for-time-series-analysis-forecasting",
-    "date": "05/10/2026",
-    "tags": [
-      "Python"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-3-statsmodels-tricks-for-time-series-analysis-forecasting-feature.png"
-  },
-  {
-    "title": "Python Foundations for Engineering: A KDnuggets Cheat Sheet",
-    "link": "https://www.kdnuggets.com/python-foundations-for-engineering-a-cheat-sheet",
-    "date": "02/10/2026",
-    "tags": [
-      "Cheat Sheets",
-      "Python"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-python-foundations-for-engineering-a-cheat-sheet-feature.png"
   }
 ]
