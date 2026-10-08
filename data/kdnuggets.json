@@ -1,5 +1,23 @@
 [
   {
+    "title": "OpenAI Dots: The Data Scientist’s Reality Check",
+    "link": "https://www.kdnuggets.com/openai-dots-the-data-scientists-reality-check",
+    "date": "07/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-openai-dots-data-scientists-know-adopting-feature.png"
+  },
+  {
+    "title": "ML Engineer, AI Engineer, or LLM Engineer: Which Role Actually Builds What in 2026?",
+    "link": "https://www.kdnuggets.com/ml-engineer-ai-engineer-or-llm-engineer-which-role-actually-builds-what-in-2026",
+    "date": "07/10/2026",
+    "tags": [
+      "Career Advice"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-ML-Engineer-AI-Engineer-LLM-Engineer-1.png"
+  },
+  {
     "title": "I Tested 5 AI Coding Assistants for a Month: Here’s What I Actually Found",
     "link": "https://www.kdnuggets.com/i-tested-5-ai-coding-assistants-for-a-month-heres-what-i-actually-found",
     "date": "07/10/2026",
@@ -62,24 +80,5 @@
       "Career Advice"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/fde-skills-arch.png"
-  },
-  {
-    "title": "5 Proven Techniques for Token Compression and Prompt Optimization",
-    "link": "https://www.kdnuggets.com/5-proven-techniques-for-token-compression-and-prompt-optimization",
-    "date": "02/10/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-5-proven-techniques-token-compression-prompt-optimization-feature.png"
-  },
-  {
-    "title": "BrowserAct AI Web Scraper in 2026: Build Once, Run Repeatedly",
-    "link": "https://www.kdnuggets.com/2026/09/browseractai/browseract-ai-web-scraper-in-2026-build-once-run-repeatedly",
-    "date": "01/10/2026",
-    "tags": [
-      "Products and Services",
-      "Partners"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdnuggets-browseract-cover-1200x675-1.png"
   }
 ]
