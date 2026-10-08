@@ -1,5 +1,14 @@
 [
   {
+    "title": "7 Best Resources to Learn About Self-Evolving AI Agents",
+    "link": "https://www.kdnuggets.com/7-best-resources-to-learn-about-self-evolving-ai-agents",
+    "date": "08/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-best-resources-to-learn-about-self-evolving-ai-agents-feature.png"
+  },
+  {
     "title": "OpenAI Dots: The Data Scientist’s Reality Check",
     "link": "https://www.kdnuggets.com/openai-dots-the-data-scientists-reality-check",
     "date": "07/10/2026",
@@ -71,14 +80,5 @@
       "Python"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-python-foundations-for-engineering-a-cheat-sheet-feature.png"
-  },
-  {
-    "title": "Forward Deployed Engineer: AI’s Hottest New Career, or Consulting With a Better Title?",
-    "link": "https://www.kdnuggets.com/forward-deployed-engineer-ais-hottest-new-career-or-consulting-with-a-better-title",
-    "date": "02/10/2026",
-    "tags": [
-      "Career Advice"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/fde-skills-arch.png"
   }
 ]
