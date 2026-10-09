@@ -1,5 +1,14 @@
 [
   {
+    "title": "Build Your First MCP Server in Python (Stateless Spec Edition)",
+    "link": "https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition",
+    "date": "09/10/2026",
+    "tags": [
+      "Python"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-build-your-first-mcp-server-in-python-stateless-spec-edition-feature.png"
+  },
+  {
     "title": "10 Free AI Tools That Replace Expensive Software for Data Scientists",
     "link": "https://www.kdnuggets.com/10-free-ai-tools-that-replace-expensive-software-for-data-scientists",
     "date": "09/10/2026",
@@ -70,14 +79,5 @@
       "Artificial Intelligence"
     ],
     "image": ""
-  },
-  {
-    "title": "5 Best Practices for Building Robust Python AI Libraries",
-    "link": "https://www.kdnuggets.com/5-best-practices-for-building-robust-python-ai-libraries",
-    "date": "06/10/2026",
-    "tags": [
-      "Python"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-5-Best-Practices-for-Building-Robust-Python-AI-Libraries-scaled.png"
   }
 ]
