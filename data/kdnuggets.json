@@ -1,5 +1,23 @@
 [
   {
+    "title": "ChatGPT vs. Claude vs. Gemini for Data Science Work: Here’s What I Found",
+    "link": "https://www.kdnuggets.com/chatgpt-vs-claude-vs-gemini-for-data-science-work-heres-what-i-found",
+    "date": "12/10/2026",
+    "tags": [
+      "Data Science"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-chatgpt-claude-gemini-data-science-work-feature.png"
+  },
+  {
+    "title": "10 Hugging Face Models Worth Knowing in 2026",
+    "link": "https://www.kdnuggets.com/10-hugging-face-models-worth-knowing-in-2026",
+    "date": "12/10/2026",
+    "tags": [
+      "Machine Learning"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-10-hugging-face-models-machine-learning-practitioners-year-feature.png"
+  },
+  {
     "title": "Build Your First MCP Server in Python (Stateless Spec Edition)",
     "link": "https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition",
     "date": "09/10/2026",
@@ -61,23 +79,5 @@
       "Career Advice"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-ML-Engineer-AI-Engineer-LLM-Engineer-1.png"
-  },
-  {
-    "title": "I Tested 5 AI Coding Assistants for a Month: Here’s What I Actually Found",
-    "link": "https://www.kdnuggets.com/i-tested-5-ai-coding-assistants-for-a-month-heres-what-i-actually-found",
-    "date": "07/10/2026",
-    "tags": [
-      "Programming"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-tested-5-ai-coding-assistants-month-feature.png"
-  },
-  {
-    "title": "Who Pays for AI Data Centers?",
-    "link": "https://www.kdnuggets.com/who-pays-for-ai-data-centers",
-    "date": "06/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": ""
   }
 ]
