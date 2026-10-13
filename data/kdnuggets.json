@@ -1,5 +1,23 @@
 [
   {
+    "title": "5 AutoHotkey Scripts for Data Scientists",
+    "link": "https://www.kdnuggets.com/5-autohotkey-scripts-for-data-scientists",
+    "date": "13/10/2026",
+    "tags": [
+      "Data Science"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-autohotkey-scripts-for-data-scientists-feature.png"
+  },
+  {
+    "title": "The Rise of AI Software Clones: Why REA and ArtCraft Are Going Viral",
+    "link": "https://www.kdnuggets.com/the-rise-of-ai-software-clones-why-rea-and-artcraft-are-going-viral",
+    "date": "12/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_rise_ai_software_clones_rea_artcraft_going_viral_2.png"
+  },
+  {
     "title": "ChatGPT vs. Claude vs. Gemini for Data Science Work: Here’s What I Found",
     "link": "https://www.kdnuggets.com/chatgpt-vs-claude-vs-gemini-for-data-science-work-heres-what-i-found",
     "date": "12/10/2026",
@@ -61,23 +79,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-best-resources-to-learn-about-self-evolving-ai-agents-feature.png"
-  },
-  {
-    "title": "OpenAI Dots: The Data Scientist’s Reality Check",
-    "link": "https://www.kdnuggets.com/openai-dots-the-data-scientists-reality-check",
-    "date": "07/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-openai-dots-data-scientists-know-adopting-feature.png"
-  },
-  {
-    "title": "ML Engineer, AI Engineer, or LLM Engineer: Which Role Actually Builds What in 2026?",
-    "link": "https://www.kdnuggets.com/ml-engineer-ai-engineer-or-llm-engineer-which-role-actually-builds-what-in-2026",
-    "date": "07/10/2026",
-    "tags": [
-      "Career Advice"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-ML-Engineer-AI-Engineer-LLM-Engineer-1.png"
   }
 ]
