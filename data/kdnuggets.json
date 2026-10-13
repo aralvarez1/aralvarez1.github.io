@@ -1,5 +1,14 @@
 [
   {
+    "title": "The Roadmap to Mastering Agentic AI Systems in 2026",
+    "link": "https://www.kdnuggets.com/the-roadmap-to-mastering-agentic-ai-systems-in-2026",
+    "date": "13/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-roadmap-building-agentic-ai-systems-2026-feature.png"
+  },
+  {
     "title": "5 AutoHotkey Scripts for Data Scientists",
     "link": "https://www.kdnuggets.com/5-autohotkey-scripts-for-data-scientists",
     "date": "13/10/2026",
@@ -70,14 +79,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Building-AI-Agents-with-Docker-Agent-scaled.png"
-  },
-  {
-    "title": "7 Best Resources to Learn About Self-Evolving AI Agents",
-    "link": "https://www.kdnuggets.com/7-best-resources-to-learn-about-self-evolving-ai-agents",
-    "date": "08/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-best-resources-to-learn-about-self-evolving-ai-agents-feature.png"
   }
 ]
