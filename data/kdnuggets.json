@@ -1,5 +1,23 @@
 [
   {
+    "title": "Few-Shot Text Classification with Scikit-LLM",
+    "link": "https://www.kdnuggets.com/few-shot-text-classification-with-scikit-llm",
+    "date": "14/10/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-few-shot-text-classification-with-scikit-llm-feature.png"
+  },
+  {
+    "title": "5 Fun Projects for LLM Inference Engineering",
+    "link": "https://www.kdnuggets.com/5-fun-projects-for-llm-inference-engineering",
+    "date": "14/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/5-Fun-Projects-for-LLM-Inference-Engineering.png"
+  },
+  {
     "title": "The Roadmap to Mastering Agentic AI Systems in 2026",
     "link": "https://www.kdnuggets.com/the-roadmap-to-mastering-agentic-ai-systems-in-2026",
     "date": "13/10/2026",
@@ -61,23 +79,5 @@
       "Data Science"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-10-free-ai-tools-replace-expensive-software-data-scientists-feature.png"
-  },
-  {
-    "title": "Bridging Algorithmic Design and Regulatory Standards in Enterprise AI",
-    "link": "https://www.kdnuggets.com/bridging-algorithmic-design-and-regulatory-standards-in-enterprise-ai",
-    "date": "08/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/guerrillabuzz-7hA2wqBcSF8-unsplash-scaled.jpg"
-  },
-  {
-    "title": "Building AI Agents with Docker Agent",
-    "link": "https://www.kdnuggets.com/building-ai-agents-with-docker-agent",
-    "date": "08/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Building-AI-Agents-with-Docker-Agent-scaled.png"
   }
 ]
