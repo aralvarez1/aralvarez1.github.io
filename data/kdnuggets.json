@@ -1,5 +1,28 @@
 [
   {
+    "title": "Abacus AI Honest Review: Key Criticisms, Facts & What Users Should Know",
+    "link": "https://www.kdnuggets.com/2026/10/abacus/abacus-ai-review-criticisms-facts-what-users-should-know",
+    "date": "15/10/2026",
+    "tags": [],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/image2-22.png"
+  },
+  {
+    "title": "Building AI Applications with OGX, the Open-Source Agentic API Server",
+    "link": "https://www.kdnuggets.com/building-ai-applications-with-open-source-agentic-api-server-ogx",
+    "date": "15/10/2026",
+    "tags": [],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Building-AI-Applications-with-Open-Source-Agentic-API-Server-OGX-scaled.png"
+  },
+  {
+    "title": "7 Open-Source AI Tools That Can Replace Paid Subscriptions",
+    "link": "https://www.kdnuggets.com/7-open-source-ai-tools-that-can-replace-paid-subscriptions",
+    "date": "15/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_7_opensource_ai_tools_replace_paid_subscriptions_1.png"
+  },
+  {
     "title": "Few-Shot Text Classification with Scikit-LLM",
     "link": "https://www.kdnuggets.com/few-shot-text-classification-with-scikit-llm",
     "date": "14/10/2026",
@@ -52,32 +75,5 @@
       "Data Science"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-chatgpt-claude-gemini-data-science-work-feature.png"
-  },
-  {
-    "title": "10 Hugging Face Models Worth Knowing in 2026",
-    "link": "https://www.kdnuggets.com/10-hugging-face-models-worth-knowing-in-2026",
-    "date": "12/10/2026",
-    "tags": [
-      "Machine Learning"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-10-hugging-face-models-machine-learning-practitioners-year-feature.png"
-  },
-  {
-    "title": "Build Your First MCP Server in Python (Stateless Spec Edition)",
-    "link": "https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition",
-    "date": "09/10/2026",
-    "tags": [
-      "Python"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-build-your-first-mcp-server-in-python-stateless-spec-edition-feature.png"
-  },
-  {
-    "title": "10 Free AI Tools That Replace Expensive Software for Data Scientists",
-    "link": "https://www.kdnuggets.com/10-free-ai-tools-that-replace-expensive-software-for-data-scientists",
-    "date": "09/10/2026",
-    "tags": [
-      "Data Science"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-10-free-ai-tools-replace-expensive-software-data-scientists-feature.png"
   }
 ]
