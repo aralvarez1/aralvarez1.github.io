@@ -1,5 +1,23 @@
 [
   {
+    "title": "Agentic RAG vs. Naive RAG: When Your Retrieval System Should Think for Itself",
+    "link": "https://www.kdnuggets.com/agentic-rag-vs-naive-rag-when-your-retrieval-system-should-think-for-itself",
+    "date": "16/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-agentic-rag-naive-rag-retrieval-system-feature.png"
+  },
+  {
+    "title": "5 Best Resources to Learn About World Models in 2026",
+    "link": "https://www.kdnuggets.com/5-best-resources-to-learn-about-world-models-in-2026",
+    "date": "16/10/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-best-resources-to-learn-about-world-models-in-2026-feature.png"
+  },
+  {
     "title": "Abacus AI Honest Review: Key Criticisms, Facts & What Users Should Know",
     "link": "https://www.kdnuggets.com/2026/10/abacus/abacus-ai-review-criticisms-facts-what-users-should-know",
     "date": "15/10/2026",
@@ -57,23 +75,5 @@
       "Data Science"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-autohotkey-scripts-for-data-scientists-feature.png"
-  },
-  {
-    "title": "The Rise of AI Software Clones: Why REA and ArtCraft Are Going Viral",
-    "link": "https://www.kdnuggets.com/the-rise-of-ai-software-clones-why-rea-and-artcraft-are-going-viral",
-    "date": "12/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_rise_ai_software_clones_rea_artcraft_going_viral_2.png"
-  },
-  {
-    "title": "ChatGPT vs. Claude vs. Gemini for Data Science Work: Here’s What I Found",
-    "link": "https://www.kdnuggets.com/chatgpt-vs-claude-vs-gemini-for-data-science-work-heres-what-i-found",
-    "date": "12/10/2026",
-    "tags": [
-      "Data Science"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-chatgpt-claude-gemini-data-science-work-feature.png"
   }
 ]
