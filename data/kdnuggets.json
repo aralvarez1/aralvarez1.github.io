@@ -1,5 +1,14 @@
 [
   {
+    "title": "7 Checks to Run Before Trusting AI-Generated Code",
+    "link": "https://www.kdnuggets.com/7-checks-to-run-before-trusting-ai-generated-code",
+    "date": "19/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-checks-to-run-before-trusting-ai-generated-code-feature.png"
+  },
+  {
     "title": "Agentic RAG vs. Naive RAG: When Your Retrieval System Should Think for Itself",
     "link": "https://www.kdnuggets.com/agentic-rag-vs-naive-rag-when-your-retrieval-system-should-think-for-itself",
     "date": "16/10/2026",
@@ -66,14 +75,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-roadmap-building-agentic-ai-systems-2026-feature.png"
-  },
-  {
-    "title": "5 AutoHotkey Scripts for Data Scientists",
-    "link": "https://www.kdnuggets.com/5-autohotkey-scripts-for-data-scientists",
-    "date": "13/10/2026",
-    "tags": [
-      "Data Science"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-autohotkey-scripts-for-data-scientists-feature.png"
   }
 ]
