@@ -1,5 +1,23 @@
 [
   {
+    "title": "The Roadmap to Becoming an AI Product Manager in 2026",
+    "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-product-manager-in-2026",
+    "date": "20/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-roadmap-becoming-ai-product-manager-2026-feature.png"
+  },
+  {
+    "title": "5 Docker Containers for Devs",
+    "link": "https://www.kdnuggets.com/5-docker-containers-for-devs",
+    "date": "20/10/2026",
+    "tags": [
+      "Programming"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-docker-containers-for-devs-feature.png"
+  },
+  {
     "title": "Claude Haiku 5.5: What’s New and How to Use It for Fast, Cheap AI Workflows",
     "link": "https://www.kdnuggets.com/claude-haiku-5-5-whats-new-and-how-to-use-it-for-fast-cheap-ai-workflows",
     "date": "19/10/2026",
@@ -57,23 +75,5 @@
     "date": "15/10/2026",
     "tags": [],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Building-AI-Applications-with-Open-Source-Agentic-API-Server-OGX-scaled.png"
-  },
-  {
-    "title": "7 Open-Source AI Tools That Can Replace Paid Subscriptions",
-    "link": "https://www.kdnuggets.com/7-open-source-ai-tools-that-can-replace-paid-subscriptions",
-    "date": "15/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_7_opensource_ai_tools_replace_paid_subscriptions_1.png"
-  },
-  {
-    "title": "Few-Shot Text Classification with Scikit-LLM",
-    "link": "https://www.kdnuggets.com/few-shot-text-classification-with-scikit-llm",
-    "date": "14/10/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-few-shot-text-classification-with-scikit-llm-feature.png"
   }
 ]
