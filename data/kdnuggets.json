@@ -1,5 +1,23 @@
 [
   {
+    "title": "Named Entity Recognition Using Scikit-LLM",
+    "link": "https://www.kdnuggets.com/named-entity-recognition-using-scikit-llm",
+    "date": "21/10/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-named-entity-recognition-using-scikit-llm-feature.png"
+  },
+  {
+    "title": "5 Best GitHub Repositories for AI Agent Skills",
+    "link": "https://www.kdnuggets.com/5-best-github-repositories-for-ai-agent-skills",
+    "date": "21/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_5_best_github_repositories_ai_agent_skills_1.png"
+  },
+  {
     "title": "The Roadmap to Becoming an AI Product Manager in 2026",
     "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-product-manager-in-2026",
     "date": "20/10/2026",
@@ -61,19 +79,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-best-resources-to-learn-about-world-models-in-2026-feature.png"
-  },
-  {
-    "title": "Abacus AI Honest Review: Key Criticisms, Facts & What Users Should Know",
-    "link": "https://www.kdnuggets.com/2026/10/abacus/abacus-ai-review-criticisms-facts-what-users-should-know",
-    "date": "15/10/2026",
-    "tags": [],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/image2-22.png"
-  },
-  {
-    "title": "Building AI Applications with OGX, the Open-Source Agentic API Server",
-    "link": "https://www.kdnuggets.com/building-ai-applications-with-open-source-agentic-api-server-ogx",
-    "date": "15/10/2026",
-    "tags": [],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Building-AI-Applications-with-Open-Source-Agentic-API-Server-OGX-scaled.png"
   }
 ]
