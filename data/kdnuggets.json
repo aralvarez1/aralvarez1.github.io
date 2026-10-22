@@ -1,5 +1,21 @@
 [
   {
+    "title": "How to Process Large JSON Files in Python With ijson",
+    "link": "https://www.kdnuggets.com/how-to-process-large-json-files-in-python-with-ijson",
+    "date": "22/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-process-large-json-files-in-python-with-ijson-feature.png"
+  },
+  {
+    "title": "Google Open-Sources Harness²: Self-Improving AI Agents Without Retraining",
+    "link": "https://www.kdnuggets.com/google-open-sources-harness-self-improving-ai-agents-without-retraining",
+    "date": "22/10/2026",
+    "tags": [],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Google-Open-Sources-Harness-scaled.png"
+  },
+  {
     "title": "Named Entity Recognition Using Scikit-LLM",
     "link": "https://www.kdnuggets.com/named-entity-recognition-using-scikit-llm",
     "date": "21/10/2026",
@@ -61,23 +77,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-checks-to-run-before-trusting-ai-generated-code-feature.png"
-  },
-  {
-    "title": "Agentic RAG vs. Naive RAG: When Your Retrieval System Should Think for Itself",
-    "link": "https://www.kdnuggets.com/agentic-rag-vs-naive-rag-when-your-retrieval-system-should-think-for-itself",
-    "date": "16/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-agentic-rag-naive-rag-retrieval-system-feature.png"
-  },
-  {
-    "title": "5 Best Resources to Learn About World Models in 2026",
-    "link": "https://www.kdnuggets.com/5-best-resources-to-learn-about-world-models-in-2026",
-    "date": "16/10/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-best-resources-to-learn-about-world-models-in-2026-feature.png"
   }
 ]
