@@ -1,5 +1,23 @@
 [
   {
+    "title": "What Companies Actually Mean When They Say They Want “AI Experience”",
+    "link": "https://www.kdnuggets.com/what-companies-actually-mean-when-they-say-they-want-ai-experience",
+    "date": "23/10/2026",
+    "tags": [
+      "Career Advice"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-companies-actually-mean-ai-experience-feature.png"
+  },
+  {
+    "title": "5 Free AI Coding Agents You Should Try in 2026",
+    "link": "https://www.kdnuggets.com/5-free-ai-coding-agents-you-should-try-in-2026",
+    "date": "23/10/2026",
+    "tags": [
+      "Programming"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_5_free_ai_coding_agents_try_2026_1.png"
+  },
+  {
     "title": "How to Process Large JSON Files in Python With ijson",
     "link": "https://www.kdnuggets.com/how-to-process-large-json-files-in-python-with-ijson",
     "date": "22/10/2026",
@@ -59,23 +77,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Claude-Haiku-5.5-Whats-New-and-How-to-Use-It-for-Fast-Cheap-AI-Workflows-scaled.png"
-  },
-  {
-    "title": "LangChain vs. LlamaIndex vs. Building From Scratch: Here’s What I Suggest",
-    "link": "https://www.kdnuggets.com/langchain-vs-llamaindex-vs-building-from-scratch-heres-what-i-suggest",
-    "date": "19/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-langchain-llamaindex-building-scratch-feature.png"
-  },
-  {
-    "title": "7 Checks to Run Before Trusting AI-Generated Code",
-    "link": "https://www.kdnuggets.com/7-checks-to-run-before-trusting-ai-generated-code",
-    "date": "19/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-checks-to-run-before-trusting-ai-generated-code-feature.png"
   }
 ]
