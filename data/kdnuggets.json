@@ -1,5 +1,14 @@
 [
   {
+    "title": "7 Advanced Python Design Patterns for Data Scientists",
+    "link": "https://www.kdnuggets.com/7-advanced-python-design-patterns-for-data-scientists",
+    "date": "26/10/2026",
+    "tags": [
+      "Python"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-advanced-python-design-patterns-for-data-scientists-feature.png"
+  },
+  {
     "title": "What Companies Actually Mean When They Say They Want “AI Experience”",
     "link": "https://www.kdnuggets.com/what-companies-actually-mean-when-they-say-they-want-ai-experience",
     "date": "23/10/2026",
@@ -68,14 +77,5 @@
       "Programming"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-docker-containers-for-devs-feature.png"
-  },
-  {
-    "title": "Claude Haiku 5.5: What’s New and How to Use It for Fast, Cheap AI Workflows",
-    "link": "https://www.kdnuggets.com/claude-haiku-5-5-whats-new-and-how-to-use-it-for-fast-cheap-ai-workflows",
-    "date": "19/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Claude-Haiku-5.5-Whats-New-and-How-to-Use-It-for-Fast-Cheap-AI-Workflows-scaled.png"
   }
 ]
