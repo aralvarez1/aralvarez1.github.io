@@ -1,5 +1,23 @@
 [
   {
+    "title": "The Roadmap to Becoming a Computer Vision Engineer in 2026",
+    "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-a-computer-vision-engineer-in-2026",
+    "date": "26/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-roadmap-becoming-computer-vision-engineer-2026-feature.png"
+  },
+  {
+    "title": "Building Your First AI Agent in Python with the OpenAI Agents SDK",
+    "link": "https://www.kdnuggets.com/building-your-first-ai-agent-in-python-with-the-openai-agents-sdk",
+    "date": "26/10/2026",
+    "tags": [
+      "Python"
+    ],
+    "image": ""
+  },
+  {
     "title": "7 Advanced Python Design Patterns for Data Scientists",
     "link": "https://www.kdnuggets.com/7-advanced-python-design-patterns-for-data-scientists",
     "date": "26/10/2026",
@@ -59,23 +77,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/awan_5_best_github_repositories_ai_agent_skills_1.png"
-  },
-  {
-    "title": "The Roadmap to Becoming an AI Product Manager in 2026",
-    "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-product-manager-in-2026",
-    "date": "20/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-roadmap-becoming-ai-product-manager-2026-feature.png"
-  },
-  {
-    "title": "5 Docker Containers for Devs",
-    "link": "https://www.kdnuggets.com/5-docker-containers-for-devs",
-    "date": "20/10/2026",
-    "tags": [
-      "Programming"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-docker-containers-for-devs-feature.png"
   }
 ]
