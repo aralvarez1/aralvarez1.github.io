@@ -1,5 +1,14 @@
 [
   {
+    "title": "Google Gemini Omni: What It Actually Does, What It Costs, and How It Compares",
+    "link": "https://www.kdnuggets.com/google-gemini-omni-what-it-actually-does-what-it-costs-and-how-it-compares",
+    "date": "27/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-google-gemini-omni-what-it-actually-does-what-it-costs-and-how-it-compares-feature.png"
+  },
+  {
     "title": "The Roadmap to Becoming a Computer Vision Engineer in 2026",
     "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-a-computer-vision-engineer-in-2026",
     "date": "26/10/2026",
@@ -68,14 +77,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-named-entity-recognition-using-scikit-llm-feature.png"
-  },
-  {
-    "title": "5 Best GitHub Repositories for AI Agent Skills",
-    "link": "https://www.kdnuggets.com/5-best-github-repositories-for-ai-agent-skills",
-    "date": "21/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_5_best_github_repositories_ai_agent_skills_1.png"
   }
 ]
