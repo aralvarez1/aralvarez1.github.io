@@ -1,5 +1,14 @@
 [
   {
+    "title": "Access Multiple AI Models in Your Python Apps Using OpenRouter",
+    "link": "https://www.kdnuggets.com/access-multiple-ai-models-in-your-python-apps-using-openrouter",
+    "date": "28/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/bala-kdn-openrouter-getting-started.png"
+  },
+  {
     "title": "Can This Open-Source Model Beat AI Detectors? Let’s Test It Locally",
     "link": "https://www.kdnuggets.com/can-this-open-source-model-beat-ai-detectors-lets-test-it-locally",
     "date": "28/10/2026",
@@ -70,14 +79,5 @@
       "Programming"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/awan_5_free_ai_coding_agents_try_2026_1.png"
-  },
-  {
-    "title": "How to Process Large JSON Files in Python With ijson",
-    "link": "https://www.kdnuggets.com/how-to-process-large-json-files-in-python-with-ijson",
-    "date": "22/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-process-large-json-files-in-python-with-ijson-feature.png"
   }
 ]
