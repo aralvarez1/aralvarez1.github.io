@@ -1,5 +1,23 @@
 [
   {
+    "title": "Can This Open-Source Model Beat AI Detectors? Let’s Test It Locally",
+    "link": "https://www.kdnuggets.com/can-this-open-source-model-beat-ai-detectors-lets-test-it-locally",
+    "date": "28/10/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_opensource_model_beat_ai_detectors_let_test_locally_7.png"
+  },
+  {
+    "title": "Which Local LMs are Best For Which Tasks",
+    "link": "https://www.kdnuggets.com/which-local-lms-are-best-for-which-tasks",
+    "date": "28/10/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Which-Local-LMs-are-Best-For-Which-Tasks-scaled.png"
+  },
+  {
     "title": "Google Gemini Omni: What It Actually Does, What It Costs, and How It Compares",
     "link": "https://www.kdnuggets.com/google-gemini-omni-what-it-actually-does-what-it-costs-and-how-it-compares",
     "date": "27/10/2026",
@@ -61,21 +79,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-process-large-json-files-in-python-with-ijson-feature.png"
-  },
-  {
-    "title": "Google Open-Sources Harness²: Self-Improving AI Agents Without Retraining",
-    "link": "https://www.kdnuggets.com/google-open-sources-harness-self-improving-ai-agents-without-retraining",
-    "date": "22/10/2026",
-    "tags": [],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Google-Open-Sources-Harness-scaled.png"
-  },
-  {
-    "title": "Named Entity Recognition Using Scikit-LLM",
-    "link": "https://www.kdnuggets.com/named-entity-recognition-using-scikit-llm",
-    "date": "21/10/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-named-entity-recognition-using-scikit-llm-feature.png"
   }
 ]
