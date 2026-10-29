@@ -1,5 +1,14 @@
 [
   {
+    "title": "5 Docker Containers You Need for a Home AI Lab",
+    "link": "https://www.kdnuggets.com/5-docker-containers-you-need-for-a-home-ai-lab",
+    "date": "29/10/2026",
+    "tags": [
+      "Data Engineering"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/mlm-context-managers-beyond-opening-files-feature.png"
+  },
+  {
     "title": "Access Multiple AI Models in Your Python Apps Using OpenRouter",
     "link": "https://www.kdnuggets.com/access-multiple-ai-models-in-your-python-apps-using-openrouter",
     "date": "28/10/2026",
@@ -70,14 +79,5 @@
       "Career Advice"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-companies-actually-mean-ai-experience-feature.png"
-  },
-  {
-    "title": "5 Free AI Coding Agents You Should Try in 2026",
-    "link": "https://www.kdnuggets.com/5-free-ai-coding-agents-you-should-try-in-2026",
-    "date": "23/10/2026",
-    "tags": [
-      "Programming"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_5_free_ai_coding_agents_try_2026_1.png"
   }
 ]
