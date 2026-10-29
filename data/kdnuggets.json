@@ -1,5 +1,14 @@
 [
   {
+    "title": "The AI Skills That Actually Show Up in Job Postings Right Now",
+    "link": "https://www.kdnuggets.com/the-ai-skills-that-actually-show-up-in-job-postings-right-now",
+    "date": "29/10/2026",
+    "tags": [
+      "Career Advice"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-ai-skills-job-postings-right-now-feature.png"
+  },
+  {
     "title": "5 Docker Containers You Need for a Home AI Lab",
     "link": "https://www.kdnuggets.com/5-docker-containers-you-need-for-a-home-ai-lab",
     "date": "29/10/2026",
@@ -70,14 +79,5 @@
       "Python"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-advanced-python-design-patterns-for-data-scientists-feature.png"
-  },
-  {
-    "title": "What Companies Actually Mean When They Say They Want “AI Experience”",
-    "link": "https://www.kdnuggets.com/what-companies-actually-mean-when-they-say-they-want-ai-experience",
-    "date": "23/10/2026",
-    "tags": [
-      "Career Advice"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-companies-actually-mean-ai-experience-feature.png"
   }
 ]
