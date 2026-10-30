@@ -1,5 +1,14 @@
 [
   {
+    "title": "Vibe Coding a Classic Game: Building Breakout Step by Step with an AI Assistant",
+    "link": "https://www.kdnuggets.com/vibe-coding-a-classic-game-building-breakout-step-by-step-with-an-ai-assistant",
+    "date": "30/10/2026",
+    "tags": [
+      "Programming"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Vibe-Coding-Gaming-Tutorial-scaled.png"
+  },
+  {
     "title": "Silent Data Errors That Survive Every Cleaning Pipeline",
     "link": "https://www.kdnuggets.com/silent-data-errors-that-survive-every-cleaning-pipeline",
     "date": "30/10/2026",
@@ -70,14 +79,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-roadmap-becoming-computer-vision-engineer-2026-feature.png"
-  },
-  {
-    "title": "Building Your First AI Agent in Python with the OpenAI Agents SDK",
-    "link": "https://www.kdnuggets.com/building-your-first-ai-agent-in-python-with-the-openai-agents-sdk",
-    "date": "26/10/2026",
-    "tags": [
-      "Python"
-    ],
-    "image": ""
   }
 ]
