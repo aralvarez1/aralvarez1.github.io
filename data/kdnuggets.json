@@ -1,5 +1,23 @@
 [
   {
+    "title": "Running LLMs Locally Does Not Mean Your Data Is Safe: What Cohere’s Study Reveals",
+    "link": "https://www.kdnuggets.com/running-llms-locally-does-not-mean-your-data-is-safe-what-coheres-study-reveals",
+    "date": "02/11/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_running_llms_locally_mean_data_safe_coheres_study_reveals_2.png"
+  },
+  {
+    "title": "5 AI Certifications Worth Paying For in 2026 (And Which to Skip)",
+    "link": "https://www.kdnuggets.com/5-ai-certifications-worth-paying-for-in-2026-and-which-to-skip",
+    "date": "02/11/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/5-ai-certifications-worth-paying-for-2026.png"
+  },
+  {
     "title": "Vibe Coding a Classic Game: Building Breakout Step by Step with an AI Assistant",
     "link": "https://www.kdnuggets.com/vibe-coding-a-classic-game-building-breakout-step-by-step-with-an-ai-assistant",
     "date": "30/10/2026",
@@ -61,23 +79,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Which-Local-LMs-are-Best-For-Which-Tasks-scaled.png"
-  },
-  {
-    "title": "Google Gemini Omni: What It Actually Does, What It Costs, and How It Compares",
-    "link": "https://www.kdnuggets.com/google-gemini-omni-what-it-actually-does-what-it-costs-and-how-it-compares",
-    "date": "27/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-google-gemini-omni-what-it-actually-does-what-it-costs-and-how-it-compares-feature.png"
-  },
-  {
-    "title": "The Roadmap to Becoming a Computer Vision Engineer in 2026",
-    "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-a-computer-vision-engineer-in-2026",
-    "date": "26/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-roadmap-becoming-computer-vision-engineer-2026-feature.png"
   }
 ]
