@@ -1,5 +1,14 @@
 [
   {
+    "title": "8 LLM Inference Frameworks You Should Try in 2026",
+    "link": "https://www.kdnuggets.com/8-llm-inference-frameworks-you-should-try-in-2026",
+    "date": "03/11/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/8-LLM-Inference-Frameworks-to-Try-in-2026.png"
+  },
+  {
     "title": "Running LLMs Locally Does Not Mean Your Data Is Safe: What Cohere’s Study Reveals",
     "link": "https://www.kdnuggets.com/running-llms-locally-does-not-mean-your-data-is-safe-what-coheres-study-reveals",
     "date": "02/11/2026",
@@ -70,14 +79,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/awan_opensource_model_beat_ai_detectors_let_test_locally_7.png"
-  },
-  {
-    "title": "Which Local LMs are Best For Which Tasks",
-    "link": "https://www.kdnuggets.com/which-local-lms-are-best-for-which-tasks",
-    "date": "28/10/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Which-Local-LMs-are-Best-For-Which-Tasks-scaled.png"
   }
 ]
