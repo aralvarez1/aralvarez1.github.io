@@ -1,5 +1,14 @@
 [
   {
+    "title": "Using LLM Summarization in Your Scikit-Learn Pipelines with Scikit-LLM",
+    "link": "https://www.kdnuggets.com/using-llm-summarization-in-your-scikit-learn-pipelines-with-scikit-llm",
+    "date": "03/11/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-using-llm-summarization-in-your-scikit-learn-pipelines-with-scikit-llm-feature.png"
+  },
+  {
     "title": "8 LLM Inference Frameworks You Should Try in 2026",
     "link": "https://www.kdnuggets.com/8-llm-inference-frameworks-you-should-try-in-2026",
     "date": "03/11/2026",
@@ -70,14 +79,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/bala-kdn-openrouter-getting-started.png"
-  },
-  {
-    "title": "Can This Open-Source Model Beat AI Detectors? Let’s Test It Locally",
-    "link": "https://www.kdnuggets.com/can-this-open-source-model-beat-ai-detectors-lets-test-it-locally",
-    "date": "28/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_opensource_model_beat_ai_detectors_let_test_locally_7.png"
   }
 ]
