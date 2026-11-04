@@ -1,5 +1,14 @@
 [
   {
+    "title": "7 Small Specialist Models That Beat Giant LLMs at One Job",
+    "link": "https://www.kdnuggets.com/7-small-specialist-models-that-beat-giant-llms-at-one-job",
+    "date": "04/11/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-7-Small-Specialist-Models-That-Beat-Giant-LLMs-at-One-Job-scaled.png"
+  },
+  {
     "title": "Using LLM Summarization in Your Scikit-Learn Pipelines with Scikit-LLM",
     "link": "https://www.kdnuggets.com/using-llm-summarization-in-your-scikit-learn-pipelines-with-scikit-llm",
     "date": "03/11/2026",
@@ -70,14 +79,5 @@
       "Data Engineering"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/mlm-context-managers-beyond-opening-files-feature.png"
-  },
-  {
-    "title": "How to Access Multiple AI Models in Your Python Apps Using OpenRouter",
-    "link": "https://www.kdnuggets.com/access-multiple-ai-models-in-your-python-apps-using-openrouter",
-    "date": "28/10/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/bala-kdn-openrouter-getting-started.png"
   }
 ]
