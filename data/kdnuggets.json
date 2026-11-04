@@ -1,5 +1,14 @@
 [
   {
+    "title": "The Data Science Interview in 2026: What’s Changed and How to Prepare",
+    "link": "https://www.kdnuggets.com/the-data-science-interview-in-2026-whats-changed-and-how-to-prepare",
+    "date": "04/11/2026",
+    "tags": [
+      "Career Advice"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-data-science-interview-2026-changed-prepare-feature.png"
+  },
+  {
     "title": "7 Small Specialist Models That Beat Giant LLMs at One Job",
     "link": "https://www.kdnuggets.com/7-small-specialist-models-that-beat-giant-llms-at-one-job",
     "date": "04/11/2026",
@@ -70,14 +79,5 @@
       "Career Advice"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-ai-skills-job-postings-right-now-feature.png"
-  },
-  {
-    "title": "5 Docker Containers You Need for a Home AI Lab",
-    "link": "https://www.kdnuggets.com/5-docker-containers-you-need-for-a-home-ai-lab",
-    "date": "29/10/2026",
-    "tags": [
-      "Data Engineering"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/mlm-context-managers-beyond-opening-files-feature.png"
   }
 ]
