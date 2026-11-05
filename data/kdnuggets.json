@@ -1,5 +1,23 @@
 [
   {
+    "title": "Web Scraping 7,000 Pages in 3 Minutes with Python and Olostep",
+    "link": "https://www.kdnuggets.com/web-scraping-7000-pages-in-3-minutes-with-python-and-olostep",
+    "date": "05/11/2026",
+    "tags": [
+      "Python"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_web_scraping_7000_pages_3_minutes_python_olostep_1.png"
+  },
+  {
+    "title": "What I Did with Hermes Agent, Ollama & Local Models",
+    "link": "https://www.kdnuggets.com/what-i-did-with-hermes-agent-ollama-local-models",
+    "date": "05/11/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-What-I-Did-with-Hermes-Agent-Ollama-Local-Models-scaled.png"
+  },
+  {
     "title": "The Data Science Interview in 2026: What’s Changed and How to Prepare",
     "link": "https://www.kdnuggets.com/the-data-science-interview-in-2026-whats-changed-and-how-to-prepare",
     "date": "04/11/2026",
@@ -61,23 +79,5 @@
       "Programming"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Vibe-Coding-Gaming-Tutorial-scaled.png"
-  },
-  {
-    "title": "Silent Data Errors That Survive Every Cleaning Pipeline",
-    "link": "https://www.kdnuggets.com/silent-data-errors-that-survive-every-cleaning-pipeline",
-    "date": "30/10/2026",
-    "tags": [
-      "Data Science"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Silent-Data-Errors-That-Survive-Every-Cleaning-Pipeline-1.png"
-  },
-  {
-    "title": "The AI Skills That Actually Show Up in Job Postings Right Now",
-    "link": "https://www.kdnuggets.com/the-ai-skills-that-actually-show-up-in-job-postings-right-now",
-    "date": "29/10/2026",
-    "tags": [
-      "Career Advice"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-ai-skills-job-postings-right-now-feature.png"
   }
 ]
