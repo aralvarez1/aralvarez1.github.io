@@ -1,5 +1,14 @@
 [
   {
+    "title": "Top 7 Python Libraries for Time Series Analysis and Modeling",
+    "link": "https://www.kdnuggets.com/top-7-python-libraries-for-time-series-analysis-and-modeling",
+    "date": "06/11/2026",
+    "tags": [
+      "Python"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/bala-kdn-time-series-python-libraries.png"
+  },
+  {
     "title": "Web Scraping 7,000 Pages in 3 Minutes with Python and Olostep",
     "link": "https://www.kdnuggets.com/web-scraping-7000-pages-in-3-minutes-with-python-and-olostep",
     "date": "05/11/2026",
@@ -70,14 +79,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/5-ai-certifications-worth-paying-for-2026.png"
-  },
-  {
-    "title": "Vibe Coding a Classic Game: Building Breakout Step by Step with an AI Assistant",
-    "link": "https://www.kdnuggets.com/vibe-coding-a-classic-game-building-breakout-step-by-step-with-an-ai-assistant",
-    "date": "30/10/2026",
-    "tags": [
-      "Programming"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Vibe-Coding-Gaming-Tutorial-scaled.png"
   }
 ]
