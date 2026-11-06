@@ -1,5 +1,24 @@
 [
   {
+    "title": "Free AI and Data Courses with 365 Data Science: 100% Unlimited Access until Nov 20",
+    "link": "https://www.kdnuggets.com/2026/10/365careers/free-ai-and-data-courses-with-365-data-science-100-unlimited-access-until-nov-20",
+    "date": "06/11/2026",
+    "tags": [
+      "Products and Services",
+      "Partners"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/image1-12.jpg"
+  },
+  {
+    "title": "How to Give Your AI Agent Memory",
+    "link": "https://www.kdnuggets.com/how-to-give-your-ai-agent-memory",
+    "date": "06/11/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_give_ai_agent_memory_2.png"
+  },
+  {
     "title": "Top 7 Python Libraries for Time Series Analysis and Modeling",
     "link": "https://www.kdnuggets.com/top-7-python-libraries-for-time-series-analysis-and-modeling",
     "date": "06/11/2026",
@@ -61,23 +80,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/8-LLM-Inference-Frameworks-to-Try-in-2026.png"
-  },
-  {
-    "title": "Running LLMs Locally Does Not Mean Your Data Is Safe: What Cohere’s Study Reveals",
-    "link": "https://www.kdnuggets.com/running-llms-locally-does-not-mean-your-data-is-safe-what-coheres-study-reveals",
-    "date": "02/11/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_running_llms_locally_mean_data_safe_coheres_study_reveals_2.png"
-  },
-  {
-    "title": "5 AI Certifications Worth Paying For in 2026 (And Which to Skip)",
-    "link": "https://www.kdnuggets.com/5-ai-certifications-worth-paying-for-in-2026-and-which-to-skip",
-    "date": "02/11/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/5-ai-certifications-worth-paying-for-2026.png"
   }
 ]
