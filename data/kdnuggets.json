@@ -1,5 +1,23 @@
 [
   {
+    "title": "Can AI Spot Data Leakage Before Your Model Hits 99% Accuracy?",
+    "link": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
+    "date": "09/11/2026",
+    "tags": [
+      "Machine Learning"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Can-AI-Spot-Data-Leakage-1.png"
+  },
+  {
+    "title": "5 Useful Python Automation Scripts for Beginners",
+    "link": "https://www.kdnuggets.com/5-useful-python-automation-scripts-for-beginners",
+    "date": "09/11/2026",
+    "tags": [
+      "Python"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDn-Bala-5-Useful-Python-Automation-Scripts.png"
+  },
+  {
     "title": "Free AI and Data Courses with 365 Data Science: 100% Unlimited Access until Nov 20",
     "link": "https://www.kdnuggets.com/2026/10/365careers/free-ai-and-data-courses-with-365-data-science-100-unlimited-access-until-nov-20",
     "date": "06/11/2026",
@@ -62,23 +80,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-7-Small-Specialist-Models-That-Beat-Giant-LLMs-at-One-Job-scaled.png"
-  },
-  {
-    "title": "Using LLM Summarization in Your Scikit-Learn Pipelines with Scikit-LLM",
-    "link": "https://www.kdnuggets.com/using-llm-summarization-in-your-scikit-learn-pipelines-with-scikit-llm",
-    "date": "03/11/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-using-llm-summarization-in-your-scikit-learn-pipelines-with-scikit-llm-feature.png"
-  },
-  {
-    "title": "8 LLM Inference Frameworks You Should Try in 2026",
-    "link": "https://www.kdnuggets.com/8-llm-inference-frameworks-you-should-try-in-2026",
-    "date": "03/11/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/8-LLM-Inference-Frameworks-to-Try-in-2026.png"
   }
 ]
