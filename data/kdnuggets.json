@@ -1,5 +1,24 @@
 [
   {
+    "title": "How to Use AI for Enterprise BI",
+    "link": "https://www.kdnuggets.com/2026/11/lansa/how-to-use-ai-for-enterprise-bi",
+    "date": "10/11/2026",
+    "tags": [
+      "Products and Services",
+      "Partners"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/LANSA-KD-Nuggets-Hero.png"
+  },
+  {
+    "title": "Integrating LLM Translation into Your Scikit-Learn Pipelines with Scikit-LLM",
+    "link": "https://www.kdnuggets.com/integrating-llm-translation-into-your-scikit-learn-pipelines-with-scikit-llm",
+    "date": "10/11/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-integrating-llm-translation-into-your-scikit-learn-pipelines-with-scikit-llm-feature.png"
+  },
+  {
     "title": "5 Techniques for Fine-Tuning LLMs Without Breaking the Bank",
     "link": "https://www.kdnuggets.com/5-techniques-for-fine-tuning-llms-without-breaking-the-bank",
     "date": "10/11/2026",
@@ -62,23 +81,5 @@
       "Python"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/awan_web_scraping_7000_pages_3_minutes_python_olostep_1.png"
-  },
-  {
-    "title": "What I Did with Hermes Agent, Ollama & Local Models",
-    "link": "https://www.kdnuggets.com/what-i-did-with-hermes-agent-ollama-local-models",
-    "date": "05/11/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-What-I-Did-with-Hermes-Agent-Ollama-Local-Models-scaled.png"
-  },
-  {
-    "title": "The Data Science Interview in 2026: What’s Changed and How to Prepare",
-    "link": "https://www.kdnuggets.com/the-data-science-interview-in-2026-whats-changed-and-how-to-prepare",
-    "date": "04/11/2026",
-    "tags": [
-      "Career Advice"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-data-science-interview-2026-changed-prepare-feature.png"
   }
 ]
