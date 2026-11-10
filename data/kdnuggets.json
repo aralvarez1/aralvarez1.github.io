@@ -1,5 +1,14 @@
 [
   {
+    "title": "5 Techniques for Fine-Tuning LLMs Without Breaking the Bank",
+    "link": "https://www.kdnuggets.com/5-techniques-for-fine-tuning-llms-without-breaking-the-bank",
+    "date": "10/11/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Technique-5-Right-Sizing-Your-GPU-scaled.png"
+  },
+  {
     "title": "Can AI Spot Data Leakage Before Your Model Hits 99% Accuracy?",
     "link": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
     "date": "09/11/2026",
@@ -71,14 +80,5 @@
       "Career Advice"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-data-science-interview-2026-changed-prepare-feature.png"
-  },
-  {
-    "title": "7 Small Specialist Models That Beat Giant LLMs at One Job",
-    "link": "https://www.kdnuggets.com/7-small-specialist-models-that-beat-giant-llms-at-one-job",
-    "date": "04/11/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-7-Small-Specialist-Models-That-Beat-Giant-LLMs-at-One-Job-scaled.png"
   }
 ]
