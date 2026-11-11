@@ -1,5 +1,14 @@
 [
   {
+    "title": "9 Key LLM Inference Metrics Explained in 5 Minutes",
+    "link": "https://www.kdnuggets.com/9-key-llm-inference-metrics-explained-in-5-minutes",
+    "date": "11/11/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDn-Bala-Key-LLM-Inference-Metrics-Explained.png"
+  },
+  {
     "title": "How to Use AI for Enterprise BI",
     "link": "https://www.kdnuggets.com/2026/11/lansa/how-to-use-ai-for-enterprise-bi",
     "date": "10/11/2026",
@@ -72,14 +81,5 @@
       "Python"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/bala-kdn-time-series-python-libraries.png"
-  },
-  {
-    "title": "Web Scraping 7,000 Pages in 3 Minutes with Python and Olostep",
-    "link": "https://www.kdnuggets.com/web-scraping-7000-pages-in-3-minutes-with-python-and-olostep",
-    "date": "05/11/2026",
-    "tags": [
-      "Python"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_web_scraping_7000_pages_3_minutes_python_olostep_1.png"
   }
 ]
