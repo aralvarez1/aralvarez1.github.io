@@ -1,5 +1,14 @@
 [
   {
+    "title": "Building Graph-Enhanced GenAI Applications with graphrag-toolkit",
+    "link": "https://www.kdnuggets.com/building-graph-enhanced-genai-applications-with-graphrag-toolkit",
+    "date": "12/11/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Building-Graph-Enhanced-GenAI-Applications-with-graphrag-toolkit-scaled.png"
+  },
+  {
     "title": "7 FREE Books to Learn About Building AI Systems",
     "link": "https://www.kdnuggets.com/7-free-books-to-learn-about-building-ai-systems",
     "date": "12/11/2026",
@@ -72,14 +81,5 @@
       "Machine Learning"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Can-AI-Spot-Data-Leakage-1.png"
-  },
-  {
-    "title": "5 Useful Python Automation Scripts for Beginners",
-    "link": "https://www.kdnuggets.com/5-useful-python-automation-scripts-for-beginners",
-    "date": "09/11/2026",
-    "tags": [
-      "Python"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDn-Bala-5-Useful-Python-Automation-Scripts.png"
   }
 ]
