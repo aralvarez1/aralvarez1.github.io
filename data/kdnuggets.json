@@ -1,5 +1,14 @@
 [
   {
+    "title": "5 FREE Open-Source Alternatives to Jev",
+    "link": "https://www.kdnuggets.com/5-free-open-source-alternatives-to-jev",
+    "date": "13/11/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-building-graph-enhanced-genai-applications-with-graphrag-toolkit-feature.jpg"
+  },
+  {
     "title": "Building Graph-Enhanced GenAI Applications with graphrag-toolkit",
     "link": "https://www.kdnuggets.com/building-graph-enhanced-genai-applications-with-graphrag-toolkit",
     "date": "12/11/2026",
@@ -72,14 +81,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Technique-5-Right-Sizing-Your-GPU-scaled.png"
-  },
-  {
-    "title": "Can AI Spot Data Leakage Before Your Model Hits 99% Accuracy?",
-    "link": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
-    "date": "09/11/2026",
-    "tags": [
-      "Machine Learning"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Can-AI-Spot-Data-Leakage-1.png"
   }
 ]
