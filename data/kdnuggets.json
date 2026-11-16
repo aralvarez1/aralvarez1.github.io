@@ -1,5 +1,23 @@
 [
   {
+    "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
+    "link": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+    "date": "16/11/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-give-claude-code-up-to-date-documentation-with-context7-feature.webp"
+  },
+  {
+    "title": "Agentic System Design: A Self-Study Roadmap",
+    "link": "https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap",
+    "date": "16/11/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDn-Bala-Agentic-System-Design-Roadmap.png"
+  },
+  {
     "title": "Getting Started with DuckLake: Build a Lakehouse on DuckDB in Under an Hour",
     "link": "https://www.kdnuggets.com/getting-started-with-ducklake-build-a-lakehouse-on-duckdb-in-under-an-hour",
     "date": "13/11/2026",
@@ -62,24 +80,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDn-Bala-Key-LLM-Inference-Metrics-Explained.png"
-  },
-  {
-    "title": "How to Use AI for Enterprise BI",
-    "link": "https://www.kdnuggets.com/2026/11/lansa/how-to-use-ai-for-enterprise-bi",
-    "date": "10/11/2026",
-    "tags": [
-      "Products and Services",
-      "Partners"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/LANSA-KD-Nuggets-Hero.png"
-  },
-  {
-    "title": "Integrating LLM Translation into Your Scikit-Learn Pipelines with Scikit-LLM",
-    "link": "https://www.kdnuggets.com/integrating-llm-translation-into-your-scikit-learn-pipelines-with-scikit-llm",
-    "date": "10/11/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-integrating-llm-translation-into-your-scikit-learn-pipelines-with-scikit-llm-feature.png"
   }
 ]
