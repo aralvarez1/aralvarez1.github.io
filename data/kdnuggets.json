@@ -1,5 +1,23 @@
 [
   {
+    "title": "How to Calibrate Your Classifier’s Probabilities in Scikit-learn",
+    "link": "https://www.kdnuggets.com/how-to-calibrate-your-classifiers-probabilities-in-scikit-learn",
+    "date": "17/11/2026",
+    "tags": [
+      "Machine Learning"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-How-to-Calibrate-Your-Classifiers-Probabilities-in-Scikit-learn-scaled.png"
+  },
+  {
+    "title": "7 Best AI Coding Plans for $10 or Less in 2026",
+    "link": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
+    "date": "17/11/2026",
+    "tags": [
+      "Programming"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-best-ai-coding-plans-for-10-or-less-in-2026-feature.webp"
+  },
+  {
     "title": "5 Things That Break When AI Agents Start Acting on Their Own",
     "link": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
     "date": "16/11/2026",
@@ -62,24 +80,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-free-books-to-learn-about-building-ai-systems-feature.jpg"
-  },
-  {
-    "title": "Where Does Abacus.AI’s Smaug Model Improve Performance the Most?",
-    "link": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most",
-    "date": "11/11/2026",
-    "tags": [
-      "Products and Services",
-      "Partners"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/download-82.png"
-  },
-  {
-    "title": "What Senior Data Science Job Postings Actually Ask for in 2026",
-    "link": "https://www.kdnuggets.com/what-senior-data-science-job-postings-actually-ask-for-in-2026",
-    "date": "11/11/2026",
-    "tags": [
-      "Career Advice"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-senior-data-science-job-postings-2026-feature.png"
   }
 ]
