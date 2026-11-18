@@ -1,5 +1,23 @@
 [
   {
+    "title": "Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next",
+    "link": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
+    "date": "18/11/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/Rosidi-Jagged-Intelligence-Why-AI-Is-Brilliant-1.png"
+  },
+  {
+    "title": "AI and Data Science Salaries in 2026: What Practitioners Are Actually Earning",
+    "link": "https://www.kdnuggets.com/ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning",
+    "date": "18/11/2026",
+    "tags": [
+      "Career Advice"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning-hero.webp"
+  },
+  {
     "title": "How to Calibrate Your Classifier’s Probabilities in Scikit-learn",
     "link": "https://www.kdnuggets.com/how-to-calibrate-your-classifiers-probabilities-in-scikit-learn",
     "date": "17/11/2026",
@@ -62,23 +80,5 @@
       "Artificial Intelligence"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-building-graph-enhanced-genai-applications-with-graphrag-toolkit-feature.jpg"
-  },
-  {
-    "title": "Building Graph-Enhanced GenAI Applications with graphrag-toolkit",
-    "link": "https://www.kdnuggets.com/building-graph-enhanced-genai-applications-with-graphrag-toolkit",
-    "date": "12/11/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Building-Graph-Enhanced-GenAI-Applications-with-graphrag-toolkit-scaled.png"
-  },
-  {
-    "title": "7 FREE Books to Learn About Building AI Systems",
-    "link": "https://www.kdnuggets.com/7-free-books-to-learn-about-building-ai-systems",
-    "date": "12/11/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-free-books-to-learn-about-building-ai-systems-feature.jpg"
   }
 ]
