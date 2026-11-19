@@ -1,5 +1,14 @@
 [
   {
+    "title": "Introducing Gemini Decision 1: A Model That Picks Answers Instead of Writing Them",
+    "link": "https://www.kdnuggets.com/introducing-gemini-decision-1-a-model-that-picks-answers-instead-of-writing-them",
+    "date": "18/11/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kd-introducing-gemini-decision-1-a-model-that-picks-answers-instead-of-writing-them-photo-1200x600-feature.png"
+  },
+  {
     "title": "Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next",
     "link": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
     "date": "18/11/2026",
@@ -71,14 +80,5 @@
       "Data Engineering"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Getting-Started-with-DuckLake-Build-a-Lakehouse-on-DuckDB-in-Under-an-Hour-scaled.png"
-  },
-  {
-    "title": "5 FREE Open-Source Alternatives to Jev",
-    "link": "https://www.kdnuggets.com/5-free-open-source-alternatives-to-jev",
-    "date": "13/11/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-building-graph-enhanced-genai-applications-with-graphrag-toolkit-feature.jpg"
   }
 ]
