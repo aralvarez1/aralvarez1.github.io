@@ -1,5 +1,23 @@
 [
   {
+    "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026",
+    "link": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
+    "date": "20/11/2026",
+    "tags": [
+      "Language Models"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kd-open-source-vs-proprietary-llms-a-decision-framework-for-2026-illustration-1200x600-feature.png"
+  },
+  {
+    "title": "Decision AI Explained in 5 Minutes",
+    "link": "https://www.kdnuggets.com/decision-ai-explained-in-5-minutes",
+    "date": "20/11/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_decision_ai_explained_5_minutes_2.png"
+  },
+  {
     "title": "What I Learned From Kaggle + Google’s Free Agentic AI Course",
     "link": "https://www.kdnuggets.com/what-i-learned-from-kaggle-googles-free-agentic-ai-course",
     "date": "19/11/2026",
@@ -61,24 +79,5 @@
       "Programming"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-best-ai-coding-plans-for-10-or-less-in-2026-feature.webp"
-  },
-  {
-    "title": "5 Things That Break When AI Agents Start Acting on Their Own",
-    "link": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
-    "date": "16/11/2026",
-    "tags": [
-      "Products and Services",
-      "Partners"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/Collibra-Agentic-Control-Ebook-Social-1.png"
-  },
-  {
-    "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
-    "link": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
-    "date": "16/11/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-give-claude-code-up-to-date-documentation-with-context7-feature.webp"
   }
 ]
