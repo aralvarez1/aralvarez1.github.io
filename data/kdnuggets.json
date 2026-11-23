@@ -1,5 +1,23 @@
 [
   {
+    "title": "How to Use AI Tools to Learn Data Science Faster in 2026",
+    "link": "https://www.kdnuggets.com/how-to-use-ai-tools-to-learn-data-science-faster-in-2026",
+    "date": "23/11/2026",
+    "tags": [
+      "Data Science"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kd-how-to-use-ai-tools-to-learn-data-science-faster-in-2026-illustration-feature.png"
+  },
+  {
+    "title": "5 Lightweight Alternatives to MCP for Giving AI Agents Tools",
+    "link": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
+    "date": "23/11/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools-feature.webp"
+  },
+  {
     "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026",
     "link": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
     "date": "20/11/2026",
@@ -61,23 +79,5 @@
       "Career Advice"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning-hero.webp"
-  },
-  {
-    "title": "How to Calibrate Your Classifier’s Probabilities in Scikit-learn",
-    "link": "https://www.kdnuggets.com/how-to-calibrate-your-classifiers-probabilities-in-scikit-learn",
-    "date": "17/11/2026",
-    "tags": [
-      "Machine Learning"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-How-to-Calibrate-Your-Classifiers-Probabilities-in-Scikit-learn-scaled.png"
-  },
-  {
-    "title": "7 Best AI Coding Plans for $10 or Less in 2026",
-    "link": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
-    "date": "17/11/2026",
-    "tags": [
-      "Programming"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-7-best-ai-coding-plans-for-10-or-less-in-2026-feature.webp"
   }
 ]
