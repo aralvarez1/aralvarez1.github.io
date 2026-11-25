@@ -1,5 +1,31 @@
 [
   {
+    "title": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents",
+    "link": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
+    "date": "25/11/2026",
+    "tags": [
+      "Products and Services",
+      "Partners"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/Bitrix24_Alaio_Vibecode_Article_Banner.png"
+  },
+  {
+    "title": "Why Data Job Candidates Freeze on Questions They Already Know",
+    "link": "https://www.kdnuggets.com/why-data-job-candidates-freeze-on-questions-they-already-know",
+    "date": "25/11/2026",
+    "tags": [
+      "Career Advice"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-why-data-job-candidates-freeze-on-questions-they-already-know-feature.webp"
+  },
+  {
+    "title": "The Roadmap to Becoming an AI Security Engineer in 2027",
+    "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026",
+    "date": "25/11/2026",
+    "tags": [],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-the-roadmap-to-becoming-an-ai-security-engineer-in-2026-feature.webp"
+  },
+  {
     "title": "How to Run Inkling 2 Mini Locally on an RTX 3090 Using Unsloth Studio",
     "link": "https://www.kdnuggets.com/how-to-run-inkling-2-mini-locally-on-an-rtx-3090-using-unsloth-studio",
     "date": "24/11/2026",
@@ -52,32 +78,5 @@
       "Language Models"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kd-open-source-vs-proprietary-llms-a-decision-framework-for-2026-illustration-1200x600-feature.png"
-  },
-  {
-    "title": "Decision AI Explained in 5 Minutes",
-    "link": "https://www.kdnuggets.com/decision-ai-explained-in-5-minutes",
-    "date": "20/11/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_decision_ai_explained_5_minutes_2.png"
-  },
-  {
-    "title": "What I Learned From Kaggle + Google’s Free Agentic AI Course",
-    "link": "https://www.kdnuggets.com/what-i-learned-from-kaggle-googles-free-agentic-ai-course",
-    "date": "19/11/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-bala-kaggle-google-agentic-ai-course.png"
-  },
-  {
-    "title": "One Table, Many Engines: Running BigQuery, Spark, and Trino on a Single Iceberg Copy",
-    "link": "https://www.kdnuggets.com/one-table-many-engines-running-bigquery-spark-and-trino-on-a-single-iceberg-copy",
-    "date": "19/11/2026",
-    "tags": [
-      "Data Engineering"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kd-one-table-many-engines-running-bigquery-spark-and-trino-on-a-single-iceberg-copy-hero-2.png"
   }
 ]
