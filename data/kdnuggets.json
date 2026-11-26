@@ -1,5 +1,23 @@
 [
   {
+    "title": "How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work",
+    "link": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work",
+    "date": "26/11/2026",
+    "tags": [
+      "Career Advice"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work-feature.webp"
+  },
+  {
+    "title": "Top 5 Open-Source Alternatives to OpenAI Dots",
+    "link": "https://www.kdnuggets.com/top-5-open-source-alternatives-to-openai-dots",
+    "date": "26/11/2026",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "image": "https://www.kdnuggets.com/wp-content/uploads/awan_top_5_opensource_alternatives_openai_dots_1.png"
+  },
+  {
     "title": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents",
     "link": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
     "date": "25/11/2026",
@@ -60,23 +78,5 @@
       "Data Science"
     ],
     "image": "https://www.kdnuggets.com/wp-content/uploads/kd-how-to-use-ai-tools-to-learn-data-science-faster-in-2026-illustration-feature.png"
-  },
-  {
-    "title": "5 Lightweight Alternatives to MCP for Giving AI Agents Tools",
-    "link": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
-    "date": "23/11/2026",
-    "tags": [
-      "Artificial Intelligence"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools-feature.webp"
-  },
-  {
-    "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026",
-    "link": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
-    "date": "20/11/2026",
-    "tags": [
-      "Language Models"
-    ],
-    "image": "https://www.kdnuggets.com/wp-content/uploads/kd-open-source-vs-proprietary-llms-a-decision-framework-for-2026-illustration-1200x600-feature.png"
   }
 ]
